@@ -61,10 +61,7 @@ When these inputs are provided, the model will process the uploaded face image a
 <img src="https://storage.googleapis.com/magicpoint/github_inputs/github-input-face-retalking.WEBP" alt="Input 1" width="300">
 
 ### Input 2
-<audio controls>
-  <source src="https://storage.googleapis.com/magicpoint/github_inputs/github-inputs-video-retalking.wav" type="audio/wav">
-  Your browser does not support the audio tag.
-</audio>
+[Download or listen to the audio file](https://storage.googleapis.com/magicpoint/github_inputs/github-inputs-video-retalking.wav)
 
 ### Output
 <video controls width="300">
@@ -72,4 +69,5 @@ When these inputs are provided, the model will process the uploaded face image a
   Your browser does not support the video tag.
 </video>
 
-[Video Output](https://storage.googleapis.com/magicpoint/github-outputs/video-retalking-github-output.mp4)
+[Watch the output video](https://storage.googleapis.com/magicpoint/github-outputs/video-retalking-github-output.mp4)
+
