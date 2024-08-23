@@ -1,0 +1,32 @@
+{
+    "name": "Talking Faces - Clone",
+    "description": "Upload your photo and driven video to generate talking faces. Build FaceDance in minutes",
+    "nodes_json": "[{\"id\":\"0\",\"type\":\"inputNode\",\"data\":{\"title\":\"Inputs\",\"description\":\"Add Inputs\",\"type\":\"input\",\"step\":1,\"inputs\":[{\"inputId\":\"0\",\"type\":\"image\",\"variableName\":\"image\",\"defaultValue\":\"https://storage.googleapis.com/1019uploads/0e8320ee-b9a0-4350-bfbf-069bcb8f8839.WEBP\",\"required\":false},{\"inputId\":\"1\",\"type\":\"voice\",\"variableName\":\"audio\",\"defaultValue\":\"https://storage.googleapis.com/1019uploads/0d25df7e-26bb-4937-bcbf-d43a49296c11.wav\",\"required\":false}],\"selected\":true},\"position\":{\"x\":0,\"y\":50},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":50}},{\"id\":\"1\",\"data\":{\"model\":{\"id\":90,\"title\":\"Audio Based LipSync\",\"type\":\"inference\",\"source\":{\"name\":\"1019Model\",\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\"},\"name\":\"video-retalking\",\"slug\":\"video-retalking\",\"thumbnail_url\":\"https://storage.cloud.google.com/magicpoint/models/retalking.webp\",\"description\":\"VideoReTalking: Audio-based Lip Synchronization for Talking Head Video Editing in the Wild\",\"version\":\"0.0.1\",\"category\":{\"id\":49,\"name\":\"Video\",\"slug\":\"video\"},\"gpu_device_id\":{\"full_name\":\"A40 48GB\",\"price\":0.001},\"inputs\":{\"face\":{\"name\":\"face\",\"type\":\"string\",\"title\":\"Face Image\",\"component\":\"file\",\"order\":0,\"description\":\"An image with a face\",\"default\":\"\",\"minimum\":0,\"maximum\":0,\"required\":true,\"flow_type\":\"Image\",\"options\":\"\",\"value\":\"{{workflow.parameters.image}}\"},\"input_audio\":{\"name\":\"input_audio\",\"type\":\"string\",\"title\":\"Input Audio\",\"component\":\"file\",\"order\":1,\"description\":\"Input audio file.\",\"default\":\"\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":\"\",\"value\":\"{{workflow.parameters.audio}}\"},\"audio_duration\":{\"name\":\"audio_duration\",\"type\":\"number\",\"title\":\"Audio Duration\",\"component\":\"input\",\"order\":2,\"description\":\"Limit the audio to this duration in seconds.\",\"default\":\"30\",\"minimum\":0,\"maximum\":100,\"required\":true,\"flow_type\":\"number\",\"options\":\"\",\"value\":\"30\"}},\"output_type\":\"array\",\"flow_output_type\":\"array\",\"output_object_key\":false,\"average_response_time\":120},\"step\":2,\"selected\":false},\"type\":\"modelNode\",\"width\":1,\"height\":1,\"position\":{\"x\":0,\"y\":170},\"positionAbsolute\":{\"x\":0,\"y\":170}},{\"id\":\"2\",\"type\":\"outputNode\",\"data\":{\"title\":\"Outputs\",\"description\":\"Add Outputs\",\"type\":\"output\",\"step\":3,\"selected\":false},\"position\":{\"x\":0,\"y\":290},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":290}}]",
+    "edges_json": "[{\"id\":\"e_0_1\",\"source\":\"0\",\"target\":\"1\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_1_2\",\"source\":\"1\",\"target\":\"2\",\"type\":\"addableEdge\",\"animated\":true}]",
+    "inputs": [
+      {
+        "name": "image",
+        "type": "image",
+        "default_value": "https://storage.googleapis.com/1019uploads/0e8320ee-b9a0-4350-bfbf-069bcb8f8839.WEBP"
+      },
+      {
+        "name": "audio",
+        "type": "voice",
+        "default_value": "https://storage.googleapis.com/1019uploads/0d25df7e-26bb-4937-bcbf-d43a49296c11.wav"
+      }
+    ],
+    "steps": [
+      {
+        "id": "step1",
+        "name": "Audio Based LipSync",
+        "type": "1019Model",
+        "model_slug": "video-retalking",
+        "model_version": "0.0.1",
+        "params": {
+          "audio_duration": 30,
+          "face": "{{workflow.parameters.image}}",
+          "input_audio": "{{workflow.parameters.audio}}"
+        }
+      }
+    ]
+  }
