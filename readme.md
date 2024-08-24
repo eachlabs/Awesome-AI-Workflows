@@ -1,7 +1,5 @@
 
 
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/eachlabs/Awesome-AI-Workflows">
@@ -11,7 +9,7 @@
   <h3 align="center">Eachlabs-README-Template</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An Eachlabs README template to jumpstart your projects!
     <br />
     <a href="https://github.com/eachlabs/Awesome-AI-Workflows"><strong>Explore the docs »</strong></a>
     <br />

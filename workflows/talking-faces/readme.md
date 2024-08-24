@@ -2,7 +2,7 @@
 
 
 
-# Video-Retalking AI Model
+# Video-Retalking AI Flow
 
 <div align="center">
     <img src="images/talking-faces-full.jpeg">
@@ -23,7 +23,6 @@ The Video-Retalking AI model is designed to synchronize facial movements in a vi
 - Film and TV dubbing
 - Social media content
 - Video conferencing
-x
 
 # AI Flow Execution Inputs
 

@@ -7,7 +7,7 @@
 
 ## Overview
 
-The AI Dubbing with Lipsync model is designed to automatically synchronize lip movements in a video with a target language audio track. Using advanced deep learning techniques, the model provides seamless and realistic dubbing, making it an excellent tool for multilingual video production, content localization, and entertainment.
+The AI Dubbing with Lipsync model is built to sync lip movements in a video with a new language audio track. It uses advanced deep learning to create smooth and realistic dubbing. This makes it a great tool for making videos in different languages, localizing content, and improving entertainment experiences.
 
 ## Features
 - **Seamless Language Synchronization**
@@ -39,8 +39,7 @@ This document provides explanations for the execution inputs used in your AI mod
 
 **Description:** This input specifies the target language for dubbing. The model will use this input to select the appropriate audio track and synchronize the lip movements accordingly. The language should be entered as a standard language code (e.g., `en` for English, `es` for Spanish).
 
-**Languages Available:** `en`, `es`, `fr`, `de`, `it`, `pt`, `pl`, `tr`, `ru`, `nl`, `cs`, `ar`, `zh`, `hu`, `ko`, `hi`
-
+**Languages Available:** `en`, `es`, `fr`, `zr`, `jp`, `kr`
 ## Usage
 
 These inputs are required parameters for running the model. Providing complete and accurate inputs ensures that the model operates correctly and yields expected results.
@@ -62,4 +61,4 @@ When these inputs are provided, the model will process the video and synchronize
 ### Output
 
 **Video:**
-[Output Video](https://storage.googleapis.com/magicpoint/github_outputs/github-output-ai-dubbing-with-lipsync.mp4)
+[Output Video](https://storage.googleapis.com/magicpoint/github-outputs/github-output-ai-dubbing-with-lipsync.mp4)
