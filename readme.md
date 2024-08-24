@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/kodxana/Awesome-RunPod/stargazers"><img src="https://img.shields.io/github/stars/eachlabs/Awesome-AI-Workflows?style=flat-square" alt="Stars Badge"/></a>
+  <a href="https://github.com/eachlabs/Awesome-AI-Workflows/stargazers"><img src="https://img.shields.io/github/stars/eachlabs/Awesome-AI-Workflows?style=flat-square" alt="Stars Badge"/></a>
   <a href="https://github.com/eachlabs/Awesome-AI-Workflows/forks"><img src="https://img.shields.io/github/forks/eachlabs/Awesome-AI-Workflows?style=flat-square" alt="Forks Badge"/></a>
   <a href="https://github.com/eachlabs/Awesome-AI-Workflows/pulls"><img src="https://img.shields.io/github/issues-pr/eachlabs/Awesome-AI-Workflows?style=flat-square" alt="Pull Requests Badge"/></a>
   <a href="https://github.com/eachlabs/Awesome-AI-Workflows/issues"><img src="https://img.shields.io/github/issues/eachlabs/Awesome-AI-Workflows?style=flat-square" alt="Issues Badge"/></a>
