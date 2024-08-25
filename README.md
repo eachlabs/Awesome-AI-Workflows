@@ -48,7 +48,7 @@ Eachlabs AI Flow Solutions is a powerful platform that enables businesses to aut
 | [Eachlabs Documentation]                          | Official Eachlabs documentation     |  |
 
 [Eachlabs Blog]: https://blog.eachlabs.ai/
-[Eachlabs Documentation]: https://docs.runpod.io/
+[Eachlabs Documentation]: https://docs.eachlabs.ai/welcome
 
 ## Video Tutorials
 
