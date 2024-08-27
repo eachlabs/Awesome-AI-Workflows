@@ -5,10 +5,9 @@
     <img src="images/logo-light-full.png" alt="Eachlabs Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Each Ready-to-Use AI Flows </h3>
+  <h3 align="center">Each AI | Ready to Use Workflow Templates</h3>
 
   <p align="center">
-    Advanced AI Workflows to Power Your Business!
     <br />
     <a href="https://docs.eachlabs.ai/welcome"><strong>Explore the docs »</strong></a>
     <br />
