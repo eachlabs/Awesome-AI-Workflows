@@ -1,5 +1,5 @@
 
-# Ai Dubbing With Lipsync
+# AI Dubbing With Lipsync
 
 <div align="center">
     <img src="images/ai-dubbing-with-lip-sync-full.jpeg" alt="AI Dubbing with Lipsync">

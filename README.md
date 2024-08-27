@@ -5,7 +5,7 @@
     <img src="images/logo-light-full.png" alt="Eachlabs Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Eachlabs AI Flow Solutions</h3>
+  <h3 align="center">Each Ready-to-Use AI Flows </h3>
 
   <p align="center">
     Advanced AI Workflows to Power Your Business!
@@ -28,13 +28,13 @@
 </p>
 
 ## Overview
-Eachlabs AI Flow Solutions is a powerful platform that enables businesses to automate and optimize their processes through advanced AI-driven workflows. Whether you're looking to automate repetitive tasks or gain insights from large datasets, our AI flows provide the tools you need to succeed.
+Combining AI models from different sources can lead to better results. You can also create and share your own models to improve this process.
 
 
 ## Key Features
-- **Automated AI Workflows**: Automate complex tasks to save time and improve efficiency.
-- **Customizable AI Models**: Integrate custom AI models tailored to your specific needs.
-- **Scalable Architecture**: Easily scale your workflows as your business grows.
+- **Combining AI models**: Integrating models from different sources to leverage their strengths.
+- **Comparing results**: Evaluating the output from different models to identify the most accurate or relevant results.
+- **Better results**: Achieving more precise outcomes by using and comparing multiple models.
 
 
 
