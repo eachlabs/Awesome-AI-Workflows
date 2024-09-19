@@ -1,0 +1,42 @@
+{
+    "name": "Text Logo Generator",
+    "description": "Design personalized text logos in seconds with our easy-to-use generator. Perfect for creating sleek, memorable logos tailored just for you!",
+    "nodes_json": "[{\"id\":\"0\",\"type\":\"inputNode\",\"data\":{\"title\":\"Inputs\",\"description\":\"Add Inputs\",\"type\":\"input\",\"step\":1,\"inputs\":[{\"inputId\":\"0\",\"type\":\"string\",\"variableName\":\"style\",\"defaultValue\":\"futuristic\",\"required\":false,\"originalValue\":\"\"},{\"inputId\":\"1\",\"type\":\"string\",\"variableName\":\"brand_name\",\"defaultValue\":\"Toys\",\"required\":false,\"originalValue\":\"\"},{\"inputId\":\"2\",\"type\":\"string\",\"variableName\":\"prompt\",\"defaultValue\":\"Generate a logo for a children's toy store, featuring playful animals and vibrant colors to reflect fun and imagination\",\"required\":false,\"originalValue\":\"\"}],\"selected\":false},\"position\":{\"x\":0,\"y\":50},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":50}},{\"id\":\"1\",\"data\":{\"model\":{\"id\":91,\"title\":\"Flux Realism\",\"type\":\"inference\",\"source\":{\"name\":\"1019Model\",\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\"},\"name\":\"flux-dev-realism\",\"slug\":\"flux-dev-realism\",\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/models/flux_realism.webp\",\"description\":\"FLUX.1-dev with XLabs-AI’s realism lora\",\"version\":\"0.0.1\",\"category\":{\"id\":46,\"name\":\"Image\",\"slug\":\"image\"},\"gpu_device_id\":{\"full_name\":\"A100 80GB\",\"price\":0.002},\"inputs\":{\"prompt\":{\"name\":\"prompt\",\"type\":\"string\",\"title\":\"Prompt\",\"component\":\"input\",\"order\":0,\"description\":\"\",\"default\":\"A photo of a woman, headshot, realistic\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":\"\",\"value\":\"Generate a  logo {{workflow.parameters.style}} that includes both the brand name '{{workflow.parameters.brand_name}}' and graphical elements based on the following prompt: '{{workflow.parameters.prompt}}'. Ensure that the brand name is clearly visible and integrated into the design. Choose an appropriate background color that complements the logo's style and structure.\"},\"aspect_ratio\":{\"name\":\"aspect_ratio\",\"type\":\"string\",\"title\":\"aspect_ratio\",\"component\":\"select\",\"order\":1,\"description\":\"An enumeration.\",\"default\":\"1:1\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":\"1:1,16:9,21:9,2:3,3:2,4:5,5:4,9:16,9:21\",\"value\":\"1:1\"},\"num_outputs\":{\"name\":\"num_outputs\",\"type\":\"integer\",\"title\":\"Num Outputs\",\"component\":\"slider\",\"order\":2,\"description\":\"Number of outputs to generate\",\"default\":\"1\",\"minimum\":1,\"maximum\":5,\"required\":false,\"flow_type\":\"integer\",\"options\":\"\",\"value\":\"1\"},\"num_inference_steps\":{\"name\":\"num_inference_steps\",\"type\":\"integer\",\"title\":\"Num Inference Steps\",\"component\":\"slider\",\"order\":3,\"description\":\"Number of denoising steps. Recommended range is 28-50\",\"default\":\"30\",\"minimum\":0,\"maximum\":50,\"required\":false,\"flow_type\":\"integer\",\"options\":\"\",\"value\":\"30\"},\"guidance\":{\"name\":\"guidance\",\"type\":\"number\",\"title\":\"Guidance\",\"component\":\"input\",\"order\":4,\"description\":\"Guidance for generated image\",\"default\":\"3.5\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"number\",\"options\":\"\",\"value\":\"3.5\"},\"lora_strength\":{\"name\":\"lora_strength\",\"type\":\"number\",\"title\":\"Lora Strength\",\"component\":\"input\",\"order\":5,\"description\":\"Strength of flux-realism lora, 0 is disabled\",\"default\":\"0.8\",\"minimum\":0,\"maximum\":2,\"required\":false,\"flow_type\":\"number\",\"options\":\"\",\"value\":\"0.8\"},\"output_format\":{\"name\":\"output_format\",\"type\":\"string\",\"title\":\"output_format\",\"component\":\"select\",\"order\":6,\"description\":\"An enumeration.\",\"default\":\"webp\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":\"webp,jpg,png\",\"value\":\"webp\"},\"output_quality\":{\"name\":\"output_quality\",\"type\":\"integer\",\"title\":\"Output Quality\",\"component\":\"slider\",\"order\":7,\"description\":\"Quality of the output images, from 0 to 100. 100 is best quality, 0 is lowest quality.\",\"default\":\"80\",\"minimum\":0,\"maximum\":100,\"required\":false,\"flow_type\":\"integer\",\"options\":\"\",\"value\":\"80\"},\"seed\":{\"name\":\"seed\",\"type\":\"integer\",\"title\":\"Seed\",\"component\":\"input\",\"order\":8,\"description\":\"Set a seed for reproducibility. Random by default.\",\"default\":\"\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"integer\",\"options\":\"\",\"value\":\"\"}},\"output_type\":\"image\",\"flow_output_type\":\"image\",\"output_object_key\":false,\"average_response_time\":0},\"step\":2,\"selected\":true},\"type\":\"modelNode\",\"width\":1,\"height\":1,\"position\":{\"x\":0,\"y\":170},\"positionAbsolute\":{\"x\":0,\"y\":170}},{\"id\":\"2\",\"type\":\"outputNode\",\"data\":{\"title\":\"Outputs\",\"description\":\"Add Outputs\",\"type\":\"output\",\"step\":3,\"selected\":false},\"position\":{\"x\":0,\"y\":290},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":290}}]",
+    "edges_json": "[{\"id\":\"e_0_1\",\"source\":\"0\",\"target\":\"1\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_1_2\",\"source\":\"1\",\"target\":\"2\",\"type\":\"addableEdge\",\"animated\":true}]",
+    "inputs": [
+        {
+            "name": "style",
+            "type": "string",
+            "default_value": "futuristic"
+        },
+        {
+            "name": "brand_name",
+            "type": "string",
+            "default_value": "Toys"
+        },
+        {
+            "name": "prompt",
+            "type": "string",
+            "default_value": "Generate a logo for a children's toy store, featuring playful animals and vibrant colors to reflect fun and imagination"
+        }
+    ],
+    "steps": [
+        {
+            "id": "step1",
+            "name": "Flux Realism",
+            "type": "1019Model",
+            "model_slug": "flux-dev-realism",
+            "model_version": "0.0.1",
+            "params": {
+                "aspect_ratio": "1:1",
+                "guidance": 3.5,
+                "lora_strength": 0.8,
+                "num_inference_steps": 30,
+                "num_outputs": 1,
+                "output_format": "webp",
+                "output_quality": 80,
+                "prompt": "Generate a  logo {{workflow.parameters.style}} that includes both the brand name '{{workflow.parameters.brand_name}}' and graphical elements based on the following prompt: '{{workflow.parameters.prompt}}'. Ensure that the brand name is clearly visible and integrated into the design. Choose an appropriate background color that complements the logo's style and structure."
+            }
+        }
+    ]
+}
