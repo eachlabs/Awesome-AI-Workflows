@@ -1,11 +1,11 @@
 # Graphic Logo Generator
 
-<div align="center">
-    <img src="images/graphic-logo-maker-full.jpeg" alt="Graphic Logo Generator">
-</div>
+
+<img src="images/graphic-logo-maker-full.jpeg" alt="Graphic Logo Generator"/>
+
 
 ## Overview
-Looking to create stunning logos effortlessly? Graphic Logo Generator AI helps you craft unique logos with just a few clicks. Perfect for designers, marketers, and business owners to bring their brand vision to life instantly.
+The Graphic Logo Generator AI automates the process of creating custom logos. It uses AI to analyze input preferences and generate unique logo designs based on specified styles, colors, and themes. This tool simplifies logo creation for designers, marketers, and business owners, allowing them to quickly generate logos without manual design work. With just a few clicks, users can produce high-quality logos tailored to their brand.
 
 ## Features
 - **Diverse Design Styles**
@@ -17,9 +17,6 @@ Looking to create stunning logos effortlessly? Graphic Logo Generator AI helps y
 - Branding identity design
 - Marketing campaign visuals
 
-# AI Model Execution Inputs
-
-This document provides explanations for the execution inputs required by your AI model.
 
 ## Inputs
 
@@ -55,7 +52,8 @@ When these inputs are provided, the model will generate a custom logo in the spe
 ### Output
 <img src="https://storage.googleapis.com/magicpoint/thumbs/graphic-logo-flow-thumb.webp" alt="Graphic Logo Maker" width="300">
 
-<br><br>
+## Conclusion
+
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.
 
 
-By using the Graphic Logo Generator AI model, save time and create unique logos, making your workflow more efficient and creative.

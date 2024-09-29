@@ -1,0 +1,43 @@
+{
+    "name": "Change Clothes with Kolors API",
+    "description": "Change clothes with Kling AI's ultra realistic Kolors VTO API! Kolors API triggers HF space from Each AI dashboard.",
+    "nodes_json": "[{\"id\":\"0\",\"type\":\"inputNode\",\"data\":{\"title\":\"Inputs\",\"description\":\"Add Inputs\",\"type\":\"input\",\"step\":1,\"inputs\":[{\"inputId\":\"0\",\"type\":\"image\",\"variableName\":\"person_photo\",\"defaultValue\":\"https://storage.googleapis.com/magicpoint/models/women.png\",\"required\":false,\"originalValue\":\"\"},{\"inputId\":\"1\",\"type\":\"image\",\"variableName\":\"clothes\",\"defaultValue\":\"https://storage.googleapis.com/magicpoint/global_inputs/03_upper.jpg\",\"required\":false,\"originalValue\":\"\"}],\"selected\":true},\"position\":{\"x\":0,\"y\":50},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":50}},{\"id\":\"1\",\"data\":{\"model\":{\"id\":113,\"title\":\"Kolors - VTO\",\"type\":\"inference\",\"source\":{\"name\":\"1019Model\",\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\"},\"name\":\"kolors-vto\",\"slug\":\"kolors-vto\",\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/thumbs/clothes-change.webp\",\"description\":\"Kolors Space Trigger from Each AI\",\"version\":\"0.0.1\",\"category\":{\"id\":46,\"name\":\"Image\",\"slug\":\"image\"},\"gpu_device_id\":{\"full_name\":\"T4 16GB\",\"price\":0.000337},\"inputs\":{\"person_img\":{\"name\":\"person_img\",\"type\":\"string\",\"title\":\"Person Photo\",\"component\":\"file\",\"order\":0,\"description\":\"Select a photo to change clothes.\",\"default\":\"https://storage.googleapis.com/magicpoint/models/women.png\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"image\",\"options\":false,\"value\":\"{{workflow.parameters.person_photo}}\"},\"clothes_img\":{\"name\":\"clothes_img\",\"type\":\"string\",\"title\":\"Clothing Image\",\"component\":\"file\",\"order\":2,\"description\":false,\"default\":\"https://storage.googleapis.com/magicpoint/global_inputs/clothes.png\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"image\",\"options\":false,\"value\":\"{{workflow.parameters.clothes}}\"}},\"output_type\":\"image\",\"flow_output_type\":\"image\",\"output_object_key\":\"output\",\"average_response_time\":80},\"step\":2,\"selected\":false},\"type\":\"modelNode\",\"width\":1,\"height\":1,\"position\":{\"x\":0,\"y\":170},\"positionAbsolute\":{\"x\":0,\"y\":170}},{\"id\":\"2\",\"data\":{\"model\":{\"id\":81,\"title\":\"Face Enhancer Fast\",\"type\":\"inference\",\"source\":{\"name\":\"1019Model\",\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\"},\"name\":\"real-esrgan-a100\",\"slug\":\"real-esrgan-a100\",\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/thumbs/fast-enhancer-thumb.webp\",\"description\":\"Real-ESRGAN for image upscaling on an A100\",\"version\":\"0.0.1\",\"category\":{\"id\":46,\"name\":\"Image\",\"slug\":\"image\"},\"gpu_device_id\":{\"full_name\":\"A100 40GB\",\"price\":0.0015},\"inputs\":{\"image\":{\"name\":\"image\",\"type\":\"string\",\"title\":\"Image\",\"component\":\"file\",\"order\":0,\"description\":\"Input image\",\"default\":\"https://storage.googleapis.com/magicpoint/inputs/fast-face-enhancer-input.webp\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":\"\",\"value\":\"{{step1.output}}\"},\"scale\":{\"name\":\"scale\",\"type\":\"number\",\"title\":\"Scale\",\"component\":\"input\",\"order\":1,\"description\":\"Factor to scale image by\",\"default\":4,\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"number\",\"options\":\"\",\"value\":4},\"face_enhance\":{\"name\":\"face_enhance\",\"type\":\"boolean\",\"title\":\"Face Enhance\",\"component\":\"checkbox\",\"order\":2,\"description\":\"Run GFPGAN face enhancement along with upscaling\",\"default\":true,\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"boolean\",\"options\":\"\",\"value\":true}},\"output_type\":\"image\",\"flow_output_type\":\"image\",\"output_object_key\":false,\"average_response_time\":0},\"step\":3,\"selected\":false},\"type\":\"modelNode\",\"width\":1,\"height\":1,\"position\":{\"x\":0,\"y\":290},\"positionAbsolute\":{\"x\":0,\"y\":290}},{\"id\":\"3\",\"type\":\"outputNode\",\"data\":{\"title\":\"Outputs\",\"description\":\"Add Outputs\",\"type\":\"output\",\"step\":4,\"selected\":false},\"position\":{\"x\":0,\"y\":410},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":410}}]",
+    "edges_json": "[{\"id\":\"e_0_1\",\"source\":\"0\",\"target\":\"1\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_1_2\",\"source\":\"1\",\"target\":\"2\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_2_3\",\"source\":\"2\",\"target\":\"3\",\"type\":\"addableEdge\",\"animated\":true}]",
+    "inputs": [
+        {
+            "name": "person_photo",
+            "type": "image",
+            "default_value": "https://storage.googleapis.com/magicpoint/models/women.png"
+        },
+        {
+            "name": "clothes",
+            "type": "image",
+            "default_value": "https://storage.googleapis.com/magicpoint/global_inputs/03_upper.jpg"
+        }
+    ],
+    "steps": [
+        {
+            "id": "step1",
+            "name": "Kolors - VTO",
+            "type": "1019Model",
+            "model_slug": "kolors-vto",
+            "model_version": "0.0.1",
+            "params": {
+                "clothes_img": "{{workflow.parameters.clothes}}",
+                "person_img": "{{workflow.parameters.person_photo}}"
+            }
+        },
+        {
+            "id": "step2",
+            "name": "Face Enhancer Fast",
+            "type": "1019Model",
+            "model_slug": "real-esrgan-a100",
+            "model_version": "0.0.1",
+            "params": {
+                "face_enhance": false,
+                "image": "{{step1.output}}",
+                "scale": 4
+            }
+        }
+    ]
+}
