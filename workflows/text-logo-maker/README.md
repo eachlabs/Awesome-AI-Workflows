@@ -1,11 +1,11 @@
 # Text Logo Generator
 
-<div align="center">
-    <img src="images/text-logo-maker-full.jpeg" alt="Text Logo Generator">
-</div>
+
+<img src="images/text-logo-maker-full.jpeg" alt="Text Logo Generator"/>
+
 
 ## Overview
-Creating the perfect text-based logo can be a challenge, but with Text Logo Generator AI, it's easier than ever. Whether you're a designer, marketer, or business owner, this tool helps you generate beautiful text logos that capture your brand's essence.
+The Text Logo Generator AI simplifies the process of creating custom text-based logos. By taking user input such as font style, color, and layout preferences, the model generates logos that reflect the desired branding. This tool is ideal for designers, marketers, and business owners who need quick and efficient logo creation without manual design work. It provides an easy way to produce clean and professional text logos that suit various branding needs.
 
 ## Features
 - **Variety of Design Styles**
@@ -17,9 +17,6 @@ Creating the perfect text-based logo can be a challenge, but with Text Logo Gene
 - Marketing and promotional materials
 - Website and social media logos
 
-# AI Model Execution Inputs
-
-Below are the explanations for the execution inputs required by the Text Logo Generator AI model.
 
 ## Inputs
 
@@ -64,6 +61,6 @@ When these inputs are provided, the model will generate a custom text logo based
 ### Output
 <img src="https://storage.googleapis.com/magicpoint/thumbs/text-logo-flow-thumb.webp" alt="Text Logo Maker" width="300">
 
-<br><br>
+## Conclusion
 
-By using the Text Logo Generator AI model, you can save time and create unique text logos that perfectly represent your brand, making your workflow more efficient and creative.
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.

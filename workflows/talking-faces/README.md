@@ -4,12 +4,11 @@
 
 # Video-Retalking AI Flow
 
-<div align="center">
-    <img src="images/talking-faces-full.jpeg">
-</div>
+  <img src="images/talking-faces-full.jpeg" alt="Video Retalking"/>
+
 
 ## Overview
-The Video-Retalking AI model is designed to synchronize facial movements in a video with a target audio track. It uses deep learning techniques to provide realistic lip-syncing, perfect for dubbing, content creation, and video production.
+The Video-Retalking AI model uses deep learning to synchronize lip movements in a video with a target audio track. It analyzes both the video and audio to adjust facial movements, ensuring realistic lip-syncing. This tool is useful for dubbing, content creation, and video production, making the process more efficient by automating the synchronization between video and new audio.
 
 ## Features
 - **High-Quality Lip Sync**
@@ -24,9 +23,7 @@ The Video-Retalking AI model is designed to synchronize facial movements in a vi
 - Social media content
 - Video conferencing
 
-# AI Flow Execution Inputs
 
-This document provides explanations for the execution inputs used in your AI model.
 
 ## Inputs
 
@@ -70,3 +67,6 @@ When these inputs are provided, the model will process the uploaded face image a
 
 [Watch the output video](https://storage.googleapis.com/magicpoint/github-outputs/video-retalking-github-output.mp4)
 
+## Conclusion
+
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.

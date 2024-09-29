@@ -1,11 +1,11 @@
 # Future Baby Generator
 
-<div align="center">
-    <img src="images/future-baby-generator-full.jpeg" alt="Future Baby Generator">
-</div>
+
+<img src="images/future-baby-generator-full.jpeg" alt="Future Baby Generator"/>
+
 
 ## Overview
-Future Baby Generator AI is a fascinating tool that brings a touch of fun and curiosity to envisioning what your future baby might look like. By analyzing the images of two parents, this model creates a realistic preview of a potential future child. Perfect for social media, a playful curiosity, or just for a bit of fun, it's an engaging way to imagine the next generation
+The Future Baby Generator AI uses facial recognition and image analysis techniques to combine the features of two parent images and generate a realistic preview of a potential future child. The model processes facial structure, skin tone, and other characteristics to create a composite image. This tool is designed for casual use, offering a visual prediction of what a child could look like based on the provided inputs. It’s commonly used for social media sharing or as a fun, curiosity-driven tool.
 
 ## Features
 - **Advanced Image Generation**
@@ -17,9 +17,7 @@ Future Baby Generator AI is a fascinating tool that brings a touch of fun and cu
 - Social Media Sharing
 - Memorable Keepsakes
 
-# AI Flow Execution Inputs
 
-This document provides explanations for the execution inputs used in your AI model.
 
 ## Inputs
 
@@ -87,4 +85,6 @@ When these inputs are provided, the model will process the uploaded face images 
 
 [Download or view the output image](https://storage.googleapis.com/magicpoint/github-outputs/future-baby-github-output.webp)
 
-By using this AI model, you can enjoy a creative and engaging way to imagine your future baby, making the experience memorable and fun.
+## Conclusion
+
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.

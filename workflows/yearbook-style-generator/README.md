@@ -1,11 +1,12 @@
-# Yearbook Style Generator
+# Yearbook Style Photo Generator
 
-<div align="center">
-    <img src="images/yearbook-style-generator-full.jpeg" alt="Yearbook Style Generator">
-</div>
+
+<img src="images/yearbook-style-generator-full.jpeg" alt="Yearbook Style Generator"/>
+
 
 ## Overview
-The Yearbook Style Generator turns any photo into a throwback yearbook pic with just a click! Perfect for capturing those nostalgic school vibes—whether you're prepping for a reunion or just want to see yourself in retro style. Using advanced AI, it analyzes your face and delivers a high-quality, old-school portrait in seconds. No design skills needed—just upload and enjoy!
+
+The Yearbook Style Generator applies an AI model to transform any photo into a retro yearbook-style portrait. It analyzes facial features and adjusts the image to match the look of classic school photos, including typical elements like lighting, background, and tone. This process is fully automated, requiring only the upload of a photo. The tool generates a high-quality, old-school portrait within seconds, making it easy to recreate the nostalgic yearbook aesthetic without manual design work.
 
 ## Features
 - **High-Quality Photo Generation**: Produces sharp, realistic images styled as traditional yearbook photos.
@@ -17,9 +18,6 @@ The Yearbook Style Generator turns any photo into a throwback yearbook pic with 
 - **Alumni Reunions**: Recreate classic yearbook photos for alumni events.
 - **Personal Projects**: Design personalized yearbook photos for scrapbooks or digital memories.
 
-# AI Flow Execution Inputs
-
-This section details the inputs required to run the Yearbook Style Generator successfully.
 
 ## Inputs
 
@@ -48,4 +46,4 @@ Once the photo is uploaded, the AI will analyze the facial features and apply a 
 
 ## Conclusion
 
-The Yearbook Style Generator provides a seamless and efficient way to create professional yearbook portraits. Whether for official use or personal projects, this tool transforms your images into timeless, high-quality yearbook photos in just a few clicks.
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.

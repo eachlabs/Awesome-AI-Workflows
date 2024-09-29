@@ -1,11 +1,11 @@
-# Generate Striking Product Images
+# AI Product Image Generation Flow
 
-<div align="center">
-    <img src="images/striking-product-images-full.jpeg" alt="Product Image Generator">
-</div>
+
+<img src="images/striking-product-images-full.jpeg" alt="Product Image Generator"/>
+
 
 ## Overview
-Need eye-catching product images that pop? With this AI flow, you can turn any ordinary photo into a stunning, professional-looking visual in seconds. Perfect for e-commerce, marketing, or product showcases. Say goodbye to boring backgrounds and hello to sleek, polished images that stand out! Let the AI handle it all—quick, easy, and powerful.
+This AI flow processes standard product photos, enhancing them by removing backgrounds and applying clean, professional edits. It automatically adjusts the image to improve clarity and focus, making it suitable for e-commerce, marketing, or product showcases. The model simplifies the workflow, turning an ordinary product image into a polished visual with minimal input. It offers a quick and efficient way to generate high-quality images without manual editing.
 
 ## Features
 - **High-Quality Product Image Enhancement**
@@ -17,9 +17,7 @@ Need eye-catching product images that pop? With this AI flow, you can turn any o
 - Marketing materials
 - Product showcase
 
-# AI Flow Execution Inputs
 
-This section explains the required inputs for running the flow successfully.
 
 ## Inputs
 
@@ -50,7 +48,9 @@ Once the input is provided, the AI flow will:
 
 <img src="https://storage.googleapis.com/magicpoint/github-outputs/striking-product-github-output.webp" alt="Product Image Output" width="300">
 
-<br><br>
 
-By using this AI model, you can enjoy a simple and exciting way to transform your product images, making them more striking and professional. It’s a fun and effortless experience, perfect for elevating your brand and showcasing your products at their best.
+## Conclusion
+
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.
+
 

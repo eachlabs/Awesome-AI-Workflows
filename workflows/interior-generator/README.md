@@ -1,11 +1,12 @@
-# Interior Generator AI Flow
+# AI Interior Architecture API
 
-<div align="center">
-    <img src="images/interior-generator-full.jpeg" alt="Interior Generator">
-</div>
+
+<img src="images/interior-generator-full.jpeg" alt="Interior Generator"/>
+
 
 ## Overview
-Ever wanted to turn your dream interior design into reality with just a click? The Interior Generator AI model is here to take your ordinary room image and transform it into a stunning and captivating living space using advanced AI techniques. Whether you're a homeowner, designer, or real estate professional, this tool helps you effortlessly visualize breathtaking interiors! It's time to reimagine your space and bring your vision to life!
+
+The Interior Generator AI model uses AI techniques to take a regular room image and turn it into a redesigned interior. It works by analyzing the layout, lighting, and features of the input image and then creating a new version that improves the space’s appearance and function. This tool is useful for homeowners, designers, and real estate agents to quickly see how a room could look after changes. The model offers a straightforward way to plan interior updates and visualize different design ideas.
 
 ## Features
 - **Dynamic Room Styles**
@@ -17,9 +18,7 @@ Ever wanted to turn your dream interior design into reality with just a click? T
 - Real estate marketing
 - Interior design projects
 
-# AI Flow Execution Inputs
 
-This document provides explanations for the execution inputs used in your AI model.
 
 ## Inputs
 
@@ -72,3 +71,6 @@ When these inputs are provided, the model will process the uploaded room image a
 
 <img src="https://storage.googleapis.com/magicpoint/github-outputs/interior-generator-github-output.webp" alt="Interior Generator Output" width="300">
 
+## Conclusion
+
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.

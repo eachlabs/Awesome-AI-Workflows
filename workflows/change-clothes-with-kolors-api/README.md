@@ -1,12 +1,11 @@
 # Change Clothes with Kolors API
 
-<div align="center">
-    <img src="images/change-clothes-kolors-api-full.jpeg" alt="Change Clothes with Kolors API Flow">
-</div>
+
+<img src="images/change-clothes-kolors-api-full.jpeg" alt="Change Clothes with Kolors API Flow"/>
 
 ## Overview
 
-Introducing the Change Clothes with Kolors API – your personal AI-powered stylist! Ever wondered how you'd look in different outfits without the hassle of trying them on? This tool does the magic for you. Just upload a photo, and watch as Kolors seamlessly swaps your clothes, creating a hyper-realistic look that fits your body and face perfectly. Effortlessly explore new styles, experiment with fashion, and find your next favorite look—all with the click of a button!
+The Change Clothes with Kolors API allows users to virtually try on different outfits using AI techniques. By uploading a photo, the API analyzes the user's body and facial features to accurately replace clothing in the image. It generates a hyper-realistic representation of the new outfit on the user, facilitating style exploration and fashion experimentation. This tool streamlines the process of trying on clothes without physical fitting, providing an efficient way to visualize different looks.
 
 ## Features
 - **High-Quality Clothing Replacement**: Generate realistic images with new clothes applied seamlessly.
@@ -18,9 +17,7 @@ Introducing the Change Clothes with Kolors API – your personal AI-powered styl
 - **Marketing**: Create promotional materials showcasing different outfits on models.
 - **Personal Projects**: Have fun swapping outfits in photos for creative, personal use.
 
-# AI Flow Execution Inputs
 
-This section outlines the inputs needed to run the **Change Clothes with Kolors API** model.
 
 ## Inputs
 
@@ -60,4 +57,4 @@ When these inputs are given, the AI will analyze both the person's image and the
 
 ## Conclusion
 
-The **Change Clothes with Kolors API** offers a fast and realistic solution for changing clothes in photos. Whether you're using it for fashion visualization, marketing, or personal fun, this tool can quickly transform how you or others appear in different outfits with professional quality. Just upload a photo, select new clothes, and see the magic happen!
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.

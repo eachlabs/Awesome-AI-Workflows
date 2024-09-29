@@ -1,11 +1,10 @@
 # Youtube Video Summarizer
 
-<div align="center">
-    <img src="images/youtube-video-summarizer-full.jpeg" alt="Youtube Video Summarizer">
-</div>
+<img src="images/youtube-video-summarizer-full.jpeg" alt="Youtube Video Summarizer"/>
+
 
 ## Overview
-YouTube Video Summarizer AI extracts the key information from long YouTube videos and delivers concise, informative summaries. Perfect for content creators, educators, and professionals! Get the insights you need without spending hours watching the entire video
+The YouTube Video Summarizer AI uses natural language processing to analyze long YouTube videos and extract key points. It automatically generates a concise summary that highlights the most important information, saving time by eliminating the need to watch the entire video. This tool is useful for content creators, educators, and professionals who want quick insights without going through the full video content. The process is efficient, requiring minimal user input.
 
 ## Features
 - **Accurate Transcriptions**
@@ -17,9 +16,6 @@ YouTube Video Summarizer AI extracts the key information from long YouTube video
 - Quick briefing for business and professional meetings
 - Social media content creation
 
-# AI Flow Execution Inputs
-
-This document provides explanations for the execution inputs used in your AI model.
 
 ## Inputs
 
@@ -49,4 +45,6 @@ When this input is provided, the model will process the given URL, transcribe th
 ```
 
 
-By using this AI model, you can save significant time and get a quick understanding of the video content, making your workflow more efficient and informed.
+## Conclusion
+
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.
