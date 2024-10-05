@@ -1,9 +1,9 @@
-# Character Generator
+# Character Photo Generation with FLUX1.1[pro]
 
 <img src="images/character-generator-full.jpeg" alt="Character Generator"/>
 
 ## Overview
-The Character Generator AI makes it super easy to create customized characters based on what users need. By using inputs like age, gender, and background theme, the model crafts unique character designs that fit user preferences. This tool is perfect for game developers, writers, and creatives who want to quickly whip up diverse character concepts without needing extensive artistic skills. It's a fantastic solution for generating visually appealing characters for all sorts of projects.
+The Character Generator AI lets users quickly create custom characters based on simple inputs like age, gender, and background theme. It's a useful tool for game developers, writers, and creatives who need character designs fast, without needing drawing skills. This tool helps generate diverse character concepts for various projects easily.
 
 ## Features
 - **Customizable Character Attributes**
