@@ -50,6 +50,12 @@ Combining AI models from different sources can lead to better results. You can a
 | **Text Logo Maker**             | Creates text-based logos using customizable fonts and styles.                 |
 | **Yearbook Style Generator**    | Generates yearbook-style images with a nostalgic touch.                       |
 | **AI Notetaker API - YouTube Video Summarizer**    | Summarizes YouTube videos by extracting key points and highlights.            |
+| **3D Cartoon Character Generator**    | Creates 3D cartoon characters based on user-provided images or specifications. |
+| **Animate Face with Video Generator** | Animates facial expressions in videos for more dynamic storytelling.           |
+| **Anime Generation**       | Transforms images into anime-style visuals through AI processing.                   |
+| **Clay Photo Generation**          | Converts regular photos into artistic clay-style visuals using AI techniques.                             |
+| **Expectant Parents Generator**          | Takes a photo of a woman and a man to generate images of an expectant mother and father. It offers a fun way to visualize parenthood dreams.             |
+| **Character Generator**     | Creates custom characters based on user-defined attributes and styles.                     |
 
 ## Resources
 
