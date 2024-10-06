@@ -43,4 +43,4 @@ Simply upload an image and the model will process it through the steps outlined 
 
 ## Conclusion
 
-For any further assistance or if you experience issues, feel free to join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.
