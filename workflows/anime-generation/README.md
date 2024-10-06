@@ -1,0 +1,46 @@
+# Anime Style Photo Generation
+
+<img src="images/anime-style-photo-generation-full.jpeg" alt="Anime Generator"/>
+
+## Overview
+The **Anime Style Photo Generation** allows users to convert input images into anime-style visuals using AI models. It processes the image through a series of steps, enhancing and transforming the photo into a stylized anime version. This tool is ideal for creators looking to generate anime-style images from real photos.
+
+## Features
+- **Anime-Style Transformation**
+- **Simple Interface**
+- **High-Quality Anime Output**
+
+## Use Cases
+- Anime-inspired artwork creation
+- Content generation for social media
+- Personal projects and creative purposes
+
+## Inputs
+
+### 1. `image`
+- **Type:** Image file
+- **Title:** Input Image
+- **Component:** Input field
+
+**Description:** The input field requires an image file that will be transformed into an anime-style visual. Supported formats include `.jpg`, `.png`, and other common image types.
+
+
+## Usage
+
+Simply upload an image and the model will process it through the steps outlined above to generate an anime-style output. Providing a high-quality input image will yield the best results.
+
+- **Input Image:** Upload the image that you want to transform into an anime-style visual.
+
+## Examples
+
+### Input
+
+<img src="https://storage.googleapis.com/magicpoint/models/women.png" alt="Anime Generator Example" width="300">
+
+### Output
+
+<img src="https://storage.googleapis.com/magicpoint/github-outputs/anime-style-photo-generation-github-output.webp" alt="Anime Generator Example" width="300">
+
+## Conclusion
+
+For any further assistance or if you experience issues, feel free to join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.
