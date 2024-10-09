@@ -6,7 +6,7 @@
 
 ## Overview
 
-The Yearbook Style Generator applies an AI model to transform any photo into a retro yearbook-style portrait. It analyzes facial features and adjusts the image to match the look of classic school photos, including typical elements like lighting, background, and tone. This process is fully automated, requiring only the upload of a photo. The tool generates a high-quality, old-school portrait within seconds, making it easy to recreate the nostalgic yearbook aesthetic without manual design work.
+The Yearbook Style Photo Generator applies an AI model to transform any photo into a retro yearbook-style portrait. It analyzes facial features and adjusts the image to match the look of classic school photos, including typical elements like lighting, background, and tone. This process is fully automated, requiring only the upload of a photo. The tool generates a high-quality, old-school portrait within seconds, making it easy to recreate the nostalgic yearbook aesthetic without manual design work.
 
 ## Features
 - **High-Quality Photo Generation**: Produces sharp, realistic images styled as traditional yearbook photos.

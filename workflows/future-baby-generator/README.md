@@ -1,11 +1,11 @@
-# Future Baby Generator
+# Future Baby Photo Generator
 
 
 <img src="images/future-baby-generator-full.jpeg" alt="Future Baby Generator"/>
 
 
 ## Overview
-The Future Baby Generator AI uses facial recognition and image analysis techniques to combine the features of two parent images and generate a realistic preview of a potential future child. The model processes facial structure, skin tone, and other characteristics to create a composite image. This tool is designed for casual use, offering a visual prediction of what a child could look like based on the provided inputs. It’s commonly used for social media sharing or as a fun, curiosity-driven tool.
+The Future Baby Photo Generator AI uses facial recognition and image analysis techniques to combine the features of two parent images and generate a realistic preview of a potential future child. The model processes facial structure, skin tone, and other characteristics to create a composite image. This tool is designed for casual use, offering a visual prediction of what a child could look like based on the provided inputs. It’s commonly used for social media sharing or as a fun, curiosity-driven tool.
 
 ## Features
 - **Advanced Image Generation**

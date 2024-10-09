@@ -1,11 +1,11 @@
-# Text Logo Generator
+# Text Logo Photo Generator
 
 
 <img src="images/text-logo-maker-full.jpeg" alt="Text Logo Generator"/>
 
 
 ## Overview
-The Text Logo Generator AI simplifies the process of creating custom text-based logos. By taking user input such as font style, color, and layout preferences, the model generates logos that reflect the desired branding. This tool is ideal for designers, marketers, and business owners who need quick and efficient logo creation without manual design work. It provides an easy way to produce clean and professional text logos that suit various branding needs.
+The Text Logo Photo Generator AI simplifies the process of creating custom text-based logos. By taking user input such as font style, color, and layout preferences, the model generates logos that reflect the desired branding. This tool is ideal for designers, marketers, and business owners who need quick and efficient logo creation without manual design work. It provides an easy way to produce clean and professional text logos that suit various branding needs.
 
 ## Features
 - **Variety of Design Styles**

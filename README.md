@@ -42,20 +42,20 @@ Combining AI models from different sources can lead to better results. You can a
 |------------------------------- |-------------------------------------------------------------------------------|
 | **AI Dubbing with Lip Sync**    | Automatically dubs videos with synchronized lip movements for multiple languages. |
 | **Change Clothes with Kolors API** | Transforms outfits in images using Kolors API for fashion alterations.           |
-| **Future Baby Generator**       | Generates future baby images by combining photos of parents.                   |
-| **Graphic Logo Maker**          | Creates custom graphic logos based on user input.                             |
-| **Interior Generator**          | Designs interior layouts and decorations with AI-generated ideas.             |
-| **Striking Product Images**     | Enhances product images with high-quality visual effects.                     |
+| **Future Baby Photo Generator**       | Generates future baby images by combining photos of parents.                   |
+| **Graphic Logo Photo Maker**          | Creates custom graphic logos based on user input.                             |
+| **Interior Photo Generator**          | Designs interior layouts and decorations with AI-generated ideas.             |
+| **Striking Product Photo Images**     | Enhances product images with high-quality visual effects.                     |
 | **Talking Faces**               | Animates still images into talking faces for interactive use.                 |
-| **Text Logo Maker**             | Creates text-based logos using customizable fonts and styles.                 |
-| **Yearbook Style Generator**    | Generates yearbook-style images with a nostalgic touch.                       |
+| **Text Logo Photo Maker**             | Creates text-based logos using customizable fonts and styles.                 |
+| **Yearbook Style Photo Generator**    | Generates yearbook-style images with a nostalgic touch.                       |
 | **AI Notetaker API - YouTube Video Summarizer**    | Summarizes YouTube videos by extracting key points and highlights.            |
-| **3D Cartoon Character Generator**    | Creates 3D cartoon characters based on user-provided images or specifications. |
+| **3D Cartoon Character Photo Generator**    | Creates 3D cartoon characters based on user-provided images or specifications. |
 | **Animate Face with Video Generator** | Animates facial expressions in videos for more dynamic storytelling.           |
-| **Anime Generation**       | Transforms images into anime-style visuals through AI processing.                   |
+| **Anime Style Photo Generation**       | Transforms images into anime-style visuals through AI processing.                   |
 | **Clay Photo Generation**          | Converts regular photos into artistic clay-style visuals using AI techniques.                             |
-| **Expectant Parents Generator**          | Takes a photo of a woman and a man to generate images of an expectant mother and father. It offers a fun way to visualize parenthood dreams.             |
-| **Character Generator**     | Creates custom characters based on user-defined attributes and styles.                     |
+| **Expectant Parents Photo Generator**          | Takes a photo of a woman and a man to generate images of an expectant mother and father. It offers a fun way to visualize parenthood dreams.             |
+| **Character Photo Generation with FLUX1.1[pro]**     | Creates custom characters based on user-defined attributes and styles.                     |
 
 ## Resources
 

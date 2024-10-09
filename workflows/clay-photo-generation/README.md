@@ -3,7 +3,7 @@
 <img src="images/clay-photo-generation-full.jpeg" alt="Clay Photo Generator"/>
 
 ## Overview
-The **Clay Photo Generator** uses advanced AI models to transform user-uploaded images into unique clay-like artistic visuals. It processes an input image through multiple stages of transformation, producing an enhanced and refined clay-style photo. This tool is ideal for those looking for a creative and fun way to generate artistic content from regular images.
+The **Clay Style Photo Generator** uses advanced AI models to transform user-uploaded images into unique clay-like artistic visuals. It processes an input image through multiple stages of transformation, producing an enhanced and refined clay-style photo. This tool is ideal for those looking for a creative and fun way to generate artistic content from regular images.
 
 ## Features
 - **Clay-like Visual Transformation**

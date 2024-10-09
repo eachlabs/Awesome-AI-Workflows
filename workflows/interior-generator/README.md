@@ -6,7 +6,7 @@
 
 ## Overview
 
-The Interior Generator AI model uses AI techniques to take a regular room image and turn it into a redesigned interior. It works by analyzing the layout, lighting, and features of the input image and then creating a new version that improves the space’s appearance and function. This tool is useful for homeowners, designers, and real estate agents to quickly see how a room could look after changes. The model offers a straightforward way to plan interior updates and visualize different design ideas.
+AI Interior Architecture API AI model uses AI techniques to take a regular room image and turn it into a redesigned interior. It works by analyzing the layout, lighting, and features of the input image and then creating a new version that improves the space’s appearance and function. This tool is useful for homeowners, designers, and real estate agents to quickly see how a room could look after changes. The model offers a straightforward way to plan interior updates and visualize different design ideas.
 
 ## Features
 - **Dynamic Room Styles**

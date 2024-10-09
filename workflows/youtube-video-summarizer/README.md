@@ -1,10 +1,10 @@
-# Youtube Video Summarizer
+# AI Notetaker API - Youtube Video Summarizer
 
 <img src="images/youtube-video-summarizer-full.jpeg" alt="Youtube Video Summarizer"/>
 
 
 ## Overview
-The YouTube Video Summarizer AI uses natural language processing to analyze long YouTube videos and extract key points. It automatically generates a concise summary that highlights the most important information, saving time by eliminating the need to watch the entire video. This tool is useful for content creators, educators, and professionals who want quick insights without going through the full video content. The process is efficient, requiring minimal user input.
+The AI Notetaker API - YouTube Video Summarizer AI uses natural language processing to analyze long YouTube videos and extract key points. It automatically generates a concise summary that highlights the most important information, saving time by eliminating the need to watch the entire video. This tool is useful for content creators, educators, and professionals who want quick insights without going through the full video content. The process is efficient, requiring minimal user input.
 
 ## Features
 - **Accurate Transcriptions**
