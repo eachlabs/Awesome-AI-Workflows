@@ -1,11 +1,11 @@
-# Graphic Logo Generator
+# Graphic Logo Photo Generator
 
 
 <img src="images/graphic-logo-maker-full.jpeg" alt="Graphic Logo Generator"/>
 
 
 ## Overview
-The Graphic Logo Generator AI automates the process of creating custom logos. It uses AI to analyze input preferences and generate unique logo designs based on specified styles, colors, and themes. This tool simplifies logo creation for designers, marketers, and business owners, allowing them to quickly generate logos without manual design work. With just a few clicks, users can produce high-quality logos tailored to their brand.
+The Graphic Logo Photo Generator AI automates the process of creating custom logos. It uses AI to analyze input preferences and generate unique logo designs based on specified styles, colors, and themes. This tool simplifies logo creation for designers, marketers, and business owners, allowing them to quickly generate logos without manual design work. With just a few clicks, users can produce high-quality logos tailored to their brand.
 
 ## Features
 - **Diverse Design Styles**
