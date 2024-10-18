@@ -61,7 +61,15 @@ Combining AI models from different sources can lead to better results. You can a
 | **Wedding Photo Generator**     | Creates beautiful and natural wedding photos with realistic poses and emotions. |
 | **AI Song Cover**               | Generates AI-based song covers by mimicking any artist's voice or style.      |
 | **Voice Summarizer**            | Summarizes spoken content from audio or video files with AI for quick insights. |
-
+| **Short Film Generator using Hailuo AI**            | Generates short films using AI with realistic characters, scenes, and cinematic effects.         |
+| **Character Video Generator with Hailuo**       | Creates character-driven video content with customizable attributes and dynamic animations.       |
+| **HeadShot Image Generator + Lip Sync**         | Produces professional headshots and adds synchronized lip movements for various speaking roles.   |
+| **Wedding Generator + Hug (Hailuo)**            | Generates beautiful wedding photos featuring natural poses, emotions, and hugging scenes.         |
+| **Photo to Anime Generator + Lip Sync**         | Converts photos into anime-style visuals with the option to animate lip movements for voiceovers.  |
+| **Anime Video Generator with Hailuo**           | Produces anime-style videos using AI to generate dynamic characters and scenes.                   |
+| **3D Cartoon Image Generator + Hailuo**         | Creates 3D cartoon images with customizable characters and styles using advanced AI technology.    |
+| **Expectant Parents + Hug (Hailuo)**            | Generates images of expectant parents, showcasing natural and emotional hugging moments.           |
+| **Video Gen with Hailuo**                       | Generates high-quality videos using AI technology, incorporating dynamic animations, sound, and visuals tailored to user specifications. |
 ## Resources
 
 | Resource                                  | Description                                  |
