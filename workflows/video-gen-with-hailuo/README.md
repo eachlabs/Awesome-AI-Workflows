@@ -59,4 +59,4 @@ Once these inputs are provided, the model processes the text and image and gener
 
 ## Conclusion
 
-If you encounter any issues, feel free to reach out to our [Discord](https://discord.com/invite/yzZD4ZxBPt) server for support.
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.

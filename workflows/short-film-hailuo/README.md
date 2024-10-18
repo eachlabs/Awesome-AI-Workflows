@@ -51,4 +51,4 @@ A young girl builds her own robot to compete in a tech competition.
 [Output Video](https://storage.googleapis.com/magicpoint/github-outputs/short-film-hailuo-github-output.mp4)
 ## Conclusion
 
-If you encounter any issues or need assistance, please join our [Discord](https://discord.com/invite/yzZD4ZxBPt) server for support.
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.
