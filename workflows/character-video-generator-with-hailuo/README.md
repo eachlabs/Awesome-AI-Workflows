@@ -56,10 +56,10 @@ The Character Video Generator with Hailuo is a simple tool that helps you create
 ## Example Input and Output
 
 ### Input
-- **Age:** 25
-- **Gender:** Female
-- **Background Theme:** Fantasy
-- **Prompt:** A young hero sets out on a quest to retrieve a magical artifact.
+- **Age:** 30
+- **Gender:** male
+- **Background Theme:** forest
+- **Prompt:** a talking
 
 ### Output
 
