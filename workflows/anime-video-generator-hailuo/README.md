@@ -18,15 +18,15 @@ The Anime Video Generator with Hailuo is a tool that allows you to create anime-
 ## Inputs
 
 ### 1. `image`
-- **Type:** File (Image)
-- **Title:** Character Image
+- **Type:** File 
+- **Title:** Image
 - **Component:** Image Upload
 
 **Description:** Upload an image that serves as the base for the anime character to be enhanced and animated.
 
 ### 2. `prompt`
 - **Type:** String
-- **Title:** Story Prompt
+- **Title:** Prompt
 - **Component:** Input field
 
 **Description:** A short description or story idea to guide the character's narrative in the anime video.
