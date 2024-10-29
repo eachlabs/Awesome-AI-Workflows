@@ -47,4 +47,4 @@ The Podium Video Generator with Hailuo helps users make personalized videos by t
 
 ## Conclusion
 
-For any issues or feedback, please join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server to get help from the community.
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.
