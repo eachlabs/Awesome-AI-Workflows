@@ -77,6 +77,13 @@ Combining AI models from different sources can lead to better results. You can a
 | **Lego Character Generator**          | Transforms user-uploaded images into Lego-style characters for a fun, blocky visual representation.    |
 | **Product Commercial Maker (Hailuo)**                   | Enhances product images with high-quality visual effects, ideal for creating eye-catching ads.        |
 | **Expectant Parents Generation + Pika Effect** | Combines features of two parent images to create a potential future child's photo, adding Pika effect for a stylized look. |
+| **Age Progression: 10 to 60 Years**      | Generates video showing age progression from childhood to older adulthood.                         |
+| **Dynamic Dystopian Diorama + Pika Art** | Creates dystopian-themed dioramas with animated elements, enhanced by Pika Art's effects.           |
+| **Dynamic Dystopian Diorama**            | Generates dystopian-themed dioramas with realistic, detailed visuals.                               |
+| **Game Video Character + Pika Art**      | Enhances game characters in videos with Pika Art's dynamic styling.                                 |
+| **Game Character Video Generator + Sync**| Creates synchronized videos for game characters with dynamic animations.                            |
+| **Game Character Video Generator (Hailuo)** | Generates video animations of game characters with customizable features, based on the Hailuo model. |
+| **Game Character Generator**             | Creates unique game character designs based on user specifications.                                 |
 ## Resources
 
 | Resource                                  | Description                                  |
