@@ -1,9 +1,9 @@
-# Dynamic Dystopian Diorama + Pika Art
+# Dynamic Dystopian Diorama + Pika Art Community
 
 <img src="images/dynamic-dystopian-diorama-pika-full.jpeg" alt="Dynamic Dystopian Diorama + Pika Art"/>
 
 ## Overview
-The Dynamic Dystopian Diorama + Pika Art flow uses both Stable Diffusion 3.5 and Pika Art Community models to create detailed dystopian scenes. With Stable Diffusion’s high-quality visuals and Pika Art’s unique style, you can generate immersive, customizable diorama-style images with a distinctive look.
+The Dynamic Dystopian Diorama + Pika Art Community flow uses both Stable Diffusion 3.5 and Pika Art Community models to create detailed dystopian scenes. With Stable Diffusion’s high-quality visuals and Pika Art’s unique style, you can generate immersive, customizable diorama-style images with a distinctive look.
 
 ## Features
 - **Detailed Dystopian Visuals**: Generates high-quality, dystopian-inspired scenes with deep customization.

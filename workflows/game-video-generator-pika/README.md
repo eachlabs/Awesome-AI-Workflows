@@ -1,10 +1,10 @@
-# Game Character Generator + Pika Art
+# Game Character Generator + Pika Art Community
 
 <img src="images/game-video-character-generator-pika-full.jpeg" alt="Game Character Generator + Pika Art"/>
 
 ## Overview
 
-With Game Character Generator + Pika Art, users can transform their uploaded photos into game-themed characters. This flow uses multiple AI models to analyze and stylize the image, reshaping it according to the chosen game theme. It’s the perfect tool for anyone looking to create personalized, game-inspired characters.
+With Game Character Generator + Pika Art Community, users can transform their uploaded photos into game-themed characters. This flow uses multiple AI models to analyze and stylize the image, reshaping it according to the chosen game theme. It’s the perfect tool for anyone looking to create personalized, game-inspired characters.
 
 ## Features
 - **Face Analysis for Enhanced Personalization**

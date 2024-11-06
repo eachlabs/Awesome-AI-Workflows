@@ -1,9 +1,9 @@
-# Game Character Video Generator + Sync
+# Game Character Video Generator + Synclabs
 
 <img src="images/game-video-generator-sync-full.jpeg" alt="Game Video Generator + Sync"/>
 
 ## Overview
-The Game Character Video Generator + Sync tool helps bring a character photo to life in the style of a selected game, creating a video. This tool combines features like face analysis, face swapping, and lip sync to give the character an authentic look and feel.
+The Game Character Video Generator + Synclabs tool helps bring a character photo to life in the style of a selected game, creating a video. This tool combines features like face analysis, face swapping, and lip sync to give the character an authentic look and feel.
 
 ## Features
 - **Face Analysis** using 1019-Face-Analyzer for face evaluation
