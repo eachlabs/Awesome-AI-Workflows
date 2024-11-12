@@ -90,9 +90,9 @@ Combining AI models from different sources can lead to better results. You can a
 | **Age Progression: 10 to 20 Years**            | Displays age transformation from childhood through late teenage years.                               |
 | **Wedding Generator + Kiss (Hailuo)**          | Creates a beautiful wedding scene with a loving kiss, enhanced by Hailuo’s realistic effects.        |
 | **Expectant Parents + Kiss (Hailuo)**          | Generates a heartwarming image of expectant parents sharing a gentle kiss, using Hailuo’s styling.   |
-| **Baby Ultrasound Photo Animation**            | Animates ultrasound photos, bringing baby moments to life with gentle motion.                        |
+| **Baby Ultrasound Photo Maker**            | Generates realistic ultrasound-style photos, capturing the earliest moments with detailed clarity.                        |
 | **Baby Ultrasound Video Creation (Hailuo)**    | Creates videos of ultrasound photos, capturing special moments with Hailuo's realistic touch.        |
-| **Baby Ultrasound Animation + Pika Art**       | Animates baby ultrasound images with Pika Art’s soft, lively effects for a memorable experience.     |
+
 ## Resources
 
 | Resource                                  | Description                                  |
