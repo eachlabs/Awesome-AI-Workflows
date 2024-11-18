@@ -84,6 +84,15 @@ Combining AI models from different sources can lead to better results. You can a
 | **Game Character Video Generator + Synclabs**| Creates synchronized videos for game characters with dynamic animations.                            |
 | **Game Character Video Generator (Hailuo)** | Generates video animations of game characters with customizable features, based on the Hailuo model. |
 | **Game Character Generator**             | Creates unique game character designs based on user specifications.                                 |
+| **Age Progression: 10 to 50 Years**            | Generates a video showing age progression from childhood to middle adulthood.                        |
+| **Age Progression: 10 to 40 Years**            | Creates a video illustrating age changes from childhood into early middle age.                       |
+| **Age Progression: 10 to 30 Years**            | Shows a visual timeline of aging from childhood to young adulthood.                                  |
+| **Age Progression: 10 to 20 Years**            | Displays age transformation from childhood through late teenage years.                               |
+| **Wedding Generator + Kiss (Hailuo)**          | Creates a beautiful wedding scene with a loving kiss, enhanced by Hailuo’s realistic effects.        |
+| **Expectant Parents + Kiss (Hailuo)**          | Generates a heartwarming image of expectant parents sharing a gentle kiss, using Hailuo’s styling.   |
+| **Baby Ultrasound Photo Maker**            | Generates realistic ultrasound-style photos, capturing the earliest moments with detailed clarity.                        |
+| **Baby Ultrasound Video Creation (Hailuo)**    | Creates videos of ultrasound photos, capturing special moments with Hailuo's realistic touch.        |
+
 ## Resources
 
 | Resource                                  | Description                                  |
