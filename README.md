@@ -92,6 +92,13 @@ Combining AI models from different sources can lead to better results. You can a
 | **Expectant Parents + Kiss (Hailuo)**          | Generates a heartwarming image of expectant parents sharing a gentle kiss, using Hailuo’s styling.   |
 | **Baby Ultrasound Photo Maker**            | Generates realistic ultrasound-style photos, capturing the earliest moments with detailed clarity.                        |
 | **Baby Ultrasound Video Creation (Hailuo)**    | Creates videos of ultrasound photos, capturing special moments with Hailuo's realistic touch.        |
+| **Sport & Style Photo Maker**           | Creates stylish sports-themed photos, blending action with fashion.                                 |
+| **Poem Generator with Sound**           | Generates poems accompanied by matching sound effects or music.                                    |
+| **Video Poem Generator**                | Turns poems into creative videos with animated visuals and text.                                   |
+| **Story Animation**                     | Brings stories to life with animated characters and scenes.                                        |
+| **Future Visualization**                | Visualizes possible future scenarios based on user input.                                          |
+| **Dancing Creator (Hailuo)**            | Creates dynamic dancing animations with customizable styles.                                       |
+| **Ideal Partner Profile Maker**         | Generates a detailed profile of your ideal partner, tailored to your preferences.                 |
 
 ## Resources
 
