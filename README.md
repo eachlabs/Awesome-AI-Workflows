@@ -42,7 +42,6 @@ Combining AI models from different sources can lead to better results. You can a
 |------------------------------- |-------------------------------------------------------------------------------|
 | **AI Dubbing with Lip Sync**    | Automatically dubs videos with synchronized lip movements for multiple languages. |
 | **Change Clothes with Kolors API** | Transforms outfits in images using Kolors API for fashion alterations.           |
-| **Future Baby Photo Generator**       | Generates future baby images by combining photos of parents.                   |
 | **AI Logo Generation Workflow**          | Creates custom graphic logos based on user input.                             |
 | **Interior AI Image Generation Workflow**          | Designs interior layouts and decorations with AI-generated ideas.             |
 | **Striking Product Photo Images**     | Enhances product images with high-quality visual effects.                     |
