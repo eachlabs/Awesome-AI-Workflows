@@ -71,7 +71,6 @@ Combining AI models from different sources can lead to better results. You can a
 | **AI Expectant Parents + Hug with Hailou AI**            | Generates images of expectant parents, showcasing natural and emotional hugging moments.           |
 | **Video Gen with Hailuo**                       | Generates high-quality videos using AI technology, incorporating dynamic animations, sound, and visuals tailored to user specifications. |
 | **AI Halloween Character Generation Workflow with Hailou AI** | Creates Halloween-themed videos using spooky effects, animations, and themed visuals with Hailuo AI. |
-| **Podium Video Generator (Hailuo)**   | Generates personalized podium videos with customized styles, designed to create engaging presentations. |
 | **Halloween Lip Sync**                | Adds lip-sync effects to Halloween-themed videos, syncing character lip movements with spooky audio.  |
 | **Halloween Image Generator**         | Produces Halloween-inspired images, adding eerie filters and designs to user-provided photos.          |
 | **AI Lego Character Generation Workflow with Hailou AI**          | Transforms user-uploaded images into Lego-style characters for a fun, blocky visual representation.    |
