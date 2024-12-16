@@ -1,6 +1,6 @@
-# AI Expectant Parents with Kiss with Hailuo AI
+# AI Expectant Parents Kiss with Hailuo AI
 
-<img src="images/expectant-parents-kiss-hailuo-full.jpeg" alt="AI Expectant Parents with Kiss with Hailuo AI" />
+<img src="images/expectant-parents-kiss-hailuo-full.jpeg" alt="AI Expectant Parents Kiss with Hailuo AI" />
 
 ## Overview
 
