@@ -1,9 +1,9 @@
-# Halloween Video Generator with Hailuo
+# AI Halloween Character Generation Workflow with Hailou AI
 
-<img src="images/halloween-video-generator-hailuo-full.jpeg" alt="Halloween Video Generator"/>
+<img src="images/halloween-video-generator-hailuo-full.jpeg" alt="AI Halloween Character Generation Workflow with Hailou AI"/>
 
 ## Overview
-The Halloween Video Generator with Hailuo is a tool that helps you create fun, spooky Halloween videos. Just upload a photo and pick a clothing style, and the tool will analyze the face, add Halloween effects, and turn it into a unique video.
+Create AI Halloween Characters with Hailou AI using Eachlabs workflows—perfect for seamless integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Face Analysis** with 1019 Face Analyzer
