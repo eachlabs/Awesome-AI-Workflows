@@ -1,9 +1,10 @@
-# Lego Character Generator
+# AI Lego Character Generation Workflow with Hailou AI
 
-<img src="images/lego-character-generator-full.jpeg" alt="Lego Character Generator"/>
+<img src="images/lego-character-generator-full.jpeg" alt="AI Lego Character Generation Workflow with Hailou AI"/>
 
 ## Overview
-The Lego Character Generator turns your uploaded image into a fun Lego-style character. Just upload a photo, and the system will handle the rest, transforming your image into a Lego-inspired version.
+Generate AI Lego Characters with Hailou AI using Eachlabs workflows—perfect for seamless integration into your web and mobile applications with Eachlabs API.
+
 
 ## Features
 - **Image-to-Image Transformation**: Converts uploaded images into Lego-style characters.

@@ -74,7 +74,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **Podium Video Generator (Hailuo)**   | Generates personalized podium videos with customized styles, designed to create engaging presentations. |
 | **Halloween Lip Sync**                | Adds lip-sync effects to Halloween-themed videos, syncing character lip movements with spooky audio.  |
 | **Halloween Image Generator**         | Produces Halloween-inspired images, adding eerie filters and designs to user-provided photos.          |
-| **Lego Character Generator**          | Transforms user-uploaded images into Lego-style characters for a fun, blocky visual representation.    |
+| **AI Lego Character Generation Workflow with Hailou AI**          | Transforms user-uploaded images into Lego-style characters for a fun, blocky visual representation.    |
 | **Product Commercial Maker (Hailuo)**                   | Enhances product images with high-quality visual effects, ideal for creating eye-catching ads.        |
 | **Expectant Parents Generation + Pika Effect** | Combines features of two parent images to create a potential future child's photo, adding Pika effect for a stylized look. |
 | **AI Age Progression: 10 to 60 Years AI Image Generation Workflow**      | Generates video showing age progression from childhood to older adulthood.                         |
