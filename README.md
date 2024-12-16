@@ -85,18 +85,13 @@ Combining AI models from different sources can lead to better results. You can a
 | **AI Game Character Video Generation Workflow with with Hailuo AI** | Generates video animations of game characters with customizable features, based on the Hailuo model. |
 | **AI Game Character Generation Workflow with Flux**             | Creates unique game character designs based on user specifications.                                 |
 | **Age Progression: 10 to 50 Years**            | Generates a video showing age progression from childhood to middle adulthood.                        |
-| **Age Progression: 10 to 40 Years**            | Creates a video illustrating age changes from childhood into early middle age.                       |
-| **Age Progression: 10 to 30 Years**            | Shows a visual timeline of aging from childhood to young adulthood.                                  |
-| **Age Progression: 10 to 20 Years**            | Displays age transformation from childhood through late teenage years.                               |
 | **Wedding Generator + Kiss (Hailuo)**          | Creates a beautiful wedding scene with a loving kiss, enhanced by Hailuo’s realistic effects.        |
 | **AI Expectant Parents with Kiss with Hailuo AI**          | Generates a heartwarming image of expectant parents sharing a gentle kiss, using Hailuo’s styling.   |
-| **Baby Ultrasound Photo Maker**            | Generates realistic ultrasound-style photos, capturing the earliest moments with detailed clarity.                        |
 | **Baby Ultrasound Video Creation (Hailuo)**    | Creates videos of ultrasound photos, capturing special moments with Hailuo's realistic touch.        |
 | **Sport Image Generation with Flux**           | Creates stylish sports-themed photos, blending action with fashion.                                 |
 | **AI Poem Generator Workflow with Sound**           | Generates poems accompanied by matching sound effects or music.                                    |
 | **Video Poem Generator**                | Turns poems into creative videos with animated visuals and text.                                   |
 | **Story Animation AI Video Generation Workflow**                     | Brings stories to life with animated characters and scenes.                                        |
-| **Future Visualization**                | Visualizes possible future scenarios based on user input.                                          |
 | **Dance AI Video Generation with Hailuo AI**            | Creates dynamic dancing animations with customizable styles.                                       |
 | **Ideal Partner AI Image Generation with Flux**         | Generates a detailed profile of your ideal partner, tailored to your preferences.                 |
 
