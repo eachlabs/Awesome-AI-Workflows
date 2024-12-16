@@ -1,9 +1,9 @@
-# 3D Cartoon Image Generator + Hailuo
+# 3D Cartoon Image Generation Workflow with Hailou AI
 
-<img src="images/3d-cartoon-image-generator-hailuo-full.jpeg" alt="3D Cartoon Image Generator"/>
+<img src="images/3d-cartoon-image-generator-hailuo-full.jpeg" alt="3D Cartoon Image Generation Workflow with Hailou AI"/>
 
 ## Overview
-The 3D Cartoon Image Generator + Hailuo tool takes an input image and transforms it into a 3D cartoon-style character based on the given prompt. After creating the cartoon character, the system automatically generates an animated video.
+Generate 3D Cartoon Images with Hailou AI using Eachlabs workflows—perfect for seamless integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Image-to-3D Cartoon Conversion** using Flux Img-to-Img
