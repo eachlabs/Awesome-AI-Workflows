@@ -1,9 +1,9 @@
-# Wedding Photo Generator
+# Wedding AI Image Generation
 
-<img src="images/wedding-photo-generator-full.jpeg" alt="Wedding Photo Generator"/>
+<img src="images/wedding-photo-generator-full.jpeg" alt="Wedding AI Image Generation"/>
 
 ## Overview
-The **Wedding Photo Generator** allows users to create realistic wedding photos by inputting images of a man and a woman. Using AI models, this tool analyzes both images and generates a high-quality, enhanced wedding photo. It’s perfect for anyone looking to create memorable wedding-themed images with ease.
+Generate Wedding AI Images using Eachlabs workflows—seamlessly integrate custom wedding visuals into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Realistic Wedding Photo Creation**

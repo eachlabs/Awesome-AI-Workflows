@@ -58,7 +58,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **Character Photo Generation with FLUX1.1[pro]**     | Creates custom characters based on user-defined attributes and styles.                     | 
 | **Avatar Generation with Flux**           | Generates personalized avatars based on user-provided images or descriptions. |
 | **RVC Runner Workflow**                  | Converts any voice into another using Real-time Voice Cloning (RVC) technology.|
-| **Wedding Photo Generator**     | Creates beautiful and natural wedding photos with realistic poses and emotions. |
+| **Wedding AI Image Generation**     | Creates beautiful and natural wedding photos with realistic poses and emotions. |
 | **AI Song Cover Workflow**               | Generates AI-based song covers by mimicking any artist's voice or style.      |
 | **Voice Summarizer**            | Summarizes spoken content from audio or video files with AI for quick insights. |
 | **AI Short Film Generation Workflow with Hailou AI**            | Generates short films using AI with realistic characters, scenes, and cinematic effects.         |
