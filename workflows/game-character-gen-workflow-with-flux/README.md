@@ -1,10 +1,10 @@
-# Game Character Generator
+# AI Game Character Generation Workflow with Flux
 
-<img src="images/game-character-generator-full.jpeg" alt="Game Character Generator"/>
+<img src="images/game-character-generator-full.jpeg" alt="AI Game Character Generation Workflow with Flux"/>
 
 
 ## Overview
-The Game Character Generator is a tool that takes a character image and restyles it based on the chosen game. It uses face analysis, face swapping, and anime-style generation to create a unique, game-inspired character look.
+Create AI Game Characters effortlessly with Flux, powered by Eachlabs workflows—ideal for seamless integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Face Analysis**: Analyzes the face features with the 1019-Face-Analyzer model.
