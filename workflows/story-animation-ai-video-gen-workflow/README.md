@@ -1,9 +1,9 @@
-# Story Animation
+# Story Animation AI Video Generation Workflow
 
-<img src="images/story-animation-full.jpeg" alt="Story Animation Banner"/>
+<img src="images/story-animation-full.jpeg" alt="Story Animation AI Video Generation Workflow"/>
 
 ## Overview
-The Story Animation flow brings your creative ideas to life by transforming written text into engaging animated videos. Leveraging AI-driven tools, this workflow simplifies the process of visual storytelling and delivers polished, professional-quality outputs.
+Convert written stories into animations with our workflow. You can add scripts, visualize scenes, and integrate voiceovers and sound effects to create immersive animated content for your projects with Eachlabs API.
 
 ## Features
 - **Text-to-Animation**: Automatically converts written stories into animations.  

@@ -95,7 +95,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **Sport Image Generation with Flux**           | Creates stylish sports-themed photos, blending action with fashion.                                 |
 | **AI Poem Generator Workflow with Sound**           | Generates poems accompanied by matching sound effects or music.                                    |
 | **Video Poem Generator**                | Turns poems into creative videos with animated visuals and text.                                   |
-| **Story Animation**                     | Brings stories to life with animated characters and scenes.                                        |
+| **Story Animation AI Video Generation Workflow**                     | Brings stories to life with animated characters and scenes.                                        |
 | **Future Visualization**                | Visualizes possible future scenarios based on user input.                                          |
 | **Dancing Creator (Hailuo)**            | Creates dynamic dancing animations with customizable styles.                                       |
 | **Ideal Partner Profile Maker**         | Generates a detailed profile of your ideal partner, tailored to your preferences.                 |
