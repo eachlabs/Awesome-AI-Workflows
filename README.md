@@ -84,7 +84,6 @@ Combining AI models from different sources can lead to better results. You can a
 | **AI Game Character Video Generation Workflow with Sync**| Creates synchronized videos for game characters with dynamic animations.                            |
 | **AI Game Character Video Generation Workflow with with Hailuo AI** | Generates video animations of game characters with customizable features, based on the Hailuo model. |
 | **AI Game Character Generation Workflow with Flux**             | Creates unique game character designs based on user specifications.                                 |
-| **Age Progression: 10 to 50 Years**            | Generates a video showing age progression from childhood to middle adulthood.                        |
 | **Wedding Generator + Kiss (Hailuo)**          | Creates a beautiful wedding scene with a loving kiss, enhanced by Hailuo’s realistic effects.        |
 | **AI Expectant Parents with Kiss with Hailuo AI**          | Generates a heartwarming image of expectant parents sharing a gentle kiss, using Hailuo’s styling.   |
 | **Baby Ultrasound Video Creation (Hailuo)**    | Creates videos of ultrasound photos, capturing special moments with Hailuo's realistic touch.        |
