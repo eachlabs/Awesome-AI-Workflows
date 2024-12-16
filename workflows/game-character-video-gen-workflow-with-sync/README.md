@@ -1,9 +1,9 @@
-# Game Character Video Generator + Synclabs
+# AI Game Character Video Generation Workflow with Sync.
 
-<img src="images/game-video-generator-sync-full.jpeg" alt="Game Video Generator + Sync"/>
+<img src="images/game-video-generator-sync-full.jpeg" alt="AI Game Character Video Generation Workflow with Sync."/>
 
 ## Overview
-The Game Character Video Generator + Synclabs tool helps bring a character photo to life in the style of a selected game, creating a video. This tool combines features like face analysis, face swapping, and lip sync to give the character an authentic look and feel.
+Create AI Game Character Videos with Sync using Eachlabs workflows—perfect for seamless integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Face Analysis** using 1019-Face-Analyzer for face evaluation
