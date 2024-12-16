@@ -1,9 +1,9 @@
-# Character Video Generator with Hailuo
+# Character Video Generation Workflow with Hailuo AI
 
-<img src="images/character-video-generator-with-hailuo-full.jpeg" alt="Character Video Generator"/>
+<img src="images/character-video-generator-with-hailuo-full.jpeg" alt="Character Video Generation Workflow with Hailuo AI"/>
 
 ## Overview
-The Character Video Generator with Hailuo is a simple tool that helps you create character-based videos. You just need to provide details like the character's age, gender, background, and a short story idea. The tool then turns these inputs into an animated video, perfect for bringing your character stories to life quickly and easily.
+Generate Character Videos with Hailuo AI using Eachlabs workflows—perfect for seamless integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Character Customization** based on age, gender, and background theme
