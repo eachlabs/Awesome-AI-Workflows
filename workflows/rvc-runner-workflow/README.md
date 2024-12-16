@@ -1,9 +1,9 @@
-# RVC Runner
+# RVC Runner Workflow
 
-<img src="images/rvc-runner-full.jpeg" alt="RVC Runner"/>
+<img src="images/rvc-runner-full.jpeg" alt="RVC Runner Workflow"/>
 
 ## Overview
-The **RVC Runner** workflow is designed to take a song file and a model URL for voice conversion. It uses a realistic voice cloning AI model to change the voice in the song based on the provided model. This is a simple tool that quickly processes voice modifications, allowing users to convert audio into different voice styles.
+Create and integrate RVC Runner workflows with Eachlabs—easily add custom audio and video transformations to your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Voice Conversion** based on the provided model
