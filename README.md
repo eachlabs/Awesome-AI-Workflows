@@ -82,7 +82,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **Dynamic Dystopian Diorama**            | Generates dystopian-themed dioramas with realistic, detailed visuals.                               |
 | **Game Video Character + Pika Art Community**      | Enhances game characters in videos with Pika Art's dynamic styling.                                 |
 | **AI Game Character Video Generation Workflow with Sync**| Creates synchronized videos for game characters with dynamic animations.                            |
-| **Game Character Video Generator (Hailuo)** | Generates video animations of game characters with customizable features, based on the Hailuo model. |
+| **AI Game Character Video Generation Workflow with with Hailuo AI** | Generates video animations of game characters with customizable features, based on the Hailuo model. |
 | **Game Character Generator**             | Creates unique game character designs based on user specifications.                                 |
 | **Age Progression: 10 to 50 Years**            | Generates a video showing age progression from childhood to middle adulthood.                        |
 | **Age Progression: 10 to 40 Years**            | Creates a video illustrating age changes from childhood into early middle age.                       |

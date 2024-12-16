@@ -1,9 +1,8 @@
-# Game Character Video Generator (Hailuo)
-
-<img src="images/game-video-generator-hailuo-full.jpeg" alt="Game Character Video Generator Hailuo"/>
+# AI Game Character Video Generation Workflow with with Hailuo AI
+<img src="images/game-video-generator-hailuo-full.jpeg" alt="AI Game Character Video Generation Workflow with with Hailuo AI"/>
 
 ## Overview
-The **Game Character Video Generator (Hailuo)** flow takes an uploaded image and transforms it into a stylized video of a game character. This multi-step process involves analyzing, modifying, and stylizing the character in the uploaded image according to the selected game theme. This tool is ideal for users who want to create unique, animated game characters.
+Generate AI Game Character Videos with Hailuo AI using Eachlabs workflows—perfect for seamless integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **In-depth Face Analysis**
