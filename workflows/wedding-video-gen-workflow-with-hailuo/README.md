@@ -1,10 +1,10 @@
-# Wedding Generator + Hug (Hailuo)
+# Wedding AI Video Generation Workflow with Hailou AI
 
-<img src="images/wedding-generator-hug-hailuo-full.jpeg" alt="Wedding Generator + Hug (Hailuo)" />
+<img src="images/wedding-generator-hug-hailuo-full.jpeg" alt="Wedding AI Video Generation Workflow with Hailou AI" />
 
 ## Overview
 
-The **Wedding Generator + Hug (Hailuo)** flow takes in images of a man and a woman, analyzes their facial features, and generates a wedding-themed image with a hugging pose. Finally, it processes the image to create a video output that captures the essence of the moment. This flow is perfect for generating wedding-themed visuals and videos from existing images.
+Create Wedding AI Videos with Hailuo AI using Eachlabs workflows—easily integrate custom workflow into your web and mobile applications with Eachlabs API.
 
 ## Features
 
