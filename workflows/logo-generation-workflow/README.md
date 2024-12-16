@@ -1,11 +1,11 @@
-# Graphic Logo Photo Generator
+# AI Logo Generation Workflow
 
 
-<img src="images/graphic-logo-maker-full.jpeg" alt="Graphic Logo Generator"/>
+<img src="images/graphic-logo-maker-full.jpeg" alt="AI Logo Generation Workflow"/>
 
 
 ## Overview
-The Graphic Logo Photo Generator AI automates the process of creating custom logos. It uses AI to analyze input preferences and generate unique logo designs based on specified styles, colors, and themes. This tool simplifies logo creation for designers, marketers, and business owners, allowing them to quickly generate logos without manual design work. With just a few clicks, users can produce high-quality logos tailored to their brand.
+Create AI-generated Logos using Eachlabs workflows—easily integrate custom logo design features into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Diverse Design Styles**
