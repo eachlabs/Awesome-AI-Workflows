@@ -48,7 +48,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **Striking Product Photo Images**     | Enhances product images with high-quality visual effects.                     |
 | **Talking Faces**               | Animates still images into talking faces for interactive use.                 |
 | **Text Logo Photo Maker**             | Creates text-based logos using customizable fonts and styles.                 |
-| **Yearbook Style Photo Generator**    | Generates yearbook-style images with a nostalgic touch.                       |
+| **Yearbook Style Generation AI Workflow**    | Generates yearbook-style images with a nostalgic touch.                       |
 | **AI Notetaker API - YouTube Video Summarizer**    | Summarizes YouTube videos by extracting key points and highlights.            |
 | **3D-Cartoon Image Generation Worfklow**    | Creates 3D cartoon characters based on user-provided images or specifications. |
 | **Animate Face with Video Generator** | Animates facial expressions in videos for more dynamic storytelling.           |
