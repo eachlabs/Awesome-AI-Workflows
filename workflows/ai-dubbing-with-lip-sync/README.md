@@ -8,7 +8,7 @@
 ## Overview
 
 
-The AI Dubbing with Lipsync model synchronizes lip movements in a video with an audio track in a different language. It employs deep learning algorithms to analyze the original video and audio, allowing it to adjust the facial movements for accurate lip-syncing. This model is useful for localizing content and creating videos in multiple languages, enhancing the viewing experience by ensuring that the audio matches the visual performance. The tool automates the dubbing process, making it more efficient and effective for content creators.
+Create AI Dubbing with Lipsync using Eachlabs workflows—seamlessly integrate dubbing and synchronized lip movements into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Seamless Language Synchronization**
