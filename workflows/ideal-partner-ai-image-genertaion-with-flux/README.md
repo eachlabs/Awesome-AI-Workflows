@@ -1,9 +1,9 @@
-# Ideal Partner Profile
+# Ideal Partner AI Image Generation with Flux
 
-<img src="images/ideal-photo-profile-maker-full.jpeg" alt="Ideal Partner Profile" />
+<img src="images/ideal-photo-profile-maker-full.jpeg" alt="Ideal Partner AI Image Generation with Flux" />
 
 ## Overview
-The Ideal Partner Profile flow helps users generate a visual representation of their ideal partner based on their preferences, zodiac sign, rising sign, and the partner's gender. Upload a photo, provide some basic inputs, and the system creates a customized output.
+Create AI image using Flux model and our Eachlabs workflow for easy integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Face Analysis**: Extracts key features from the uploaded image to personalize the output.
