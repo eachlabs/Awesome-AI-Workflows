@@ -1,9 +1,9 @@
-# Anime Style Photo Generation
+# Anime AI Image Generation Workflow
 
-<img src="images/anime-style-photo-generation-full.jpeg" alt="Anime Generator"/>
+<img src="images/anime-style-photo-generation-full.jpeg" alt="Anime AI Image Generation Workflow"/>
 
 ## Overview
-The **Anime Style Photo Generation** allows users to convert input images into anime-style visuals using AI models. It processes the image through a series of steps, enhancing and transforming the photo into a stylized anime version. This tool is ideal for creators looking to generate anime-style images from real photos.
+Generate Anime AI Images using Eachlabs workflows—easily integrate anime-style image generation into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Anime-Style Transformation**

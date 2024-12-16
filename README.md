@@ -52,7 +52,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **AI Notetaker API - YouTube Video Summarizer**    | Summarizes YouTube videos by extracting key points and highlights.            |
 | **3D Cartoon Character Photo Generator**    | Creates 3D cartoon characters based on user-provided images or specifications. |
 | **Animate Face with Video Generator** | Animates facial expressions in videos for more dynamic storytelling.           |
-| **Anime Style Photo Generation**       | Transforms images into anime-style visuals through AI processing.                   |
+| **Anime AI Image Generation Workflow**       | Transforms images into anime-style visuals through AI processing.                   |
 | **Clay Photo Generation**          | Converts regular photos into artistic clay-style visuals using AI techniques.                             |
 | **Expectant Parents Photo Generator**          | Takes a photo of a woman and a man to generate images of an expectant mother and father. It offers a fun way to visualize parenthood dreams.             |
 | **Character Photo Generation with FLUX1.1[pro]**     | Creates custom characters based on user-defined attributes and styles.                     | 
