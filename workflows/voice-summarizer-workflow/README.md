@@ -1,10 +1,10 @@
-# Voice Summarizer
+# Voice Summarizer Workflow
 
-<img src="images/voice-summarizer-full.jpeg" alt="Voice Summarizer"/>
+<img src="images/voice-summarizer-full.jpeg" alt="Voice Summarizer Workflow"/>
 
 ## Overview
 
-The **Voice Summarizer** workflow converts speech from an audio input into text and then generates a summary of that text using an AI model. This tool is ideal for summarizing long voice recordings, podcasts, lectures, and more.
+Generate Voice Summaries using Eachlabs workflows—seamlessly integrate voice summarization into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Speech-to-Text Conversion**: Uses a fast and accurate voice-to-text model to transcribe speech.
