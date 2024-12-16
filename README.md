@@ -71,7 +71,6 @@ Combining AI models from different sources can lead to better results. You can a
 | **AI Expectant Parents + Hug with Hailou AI**            | Generates images of expectant parents, showcasing natural and emotional hugging moments.           |
 | **Video Gen with Hailuo**                       | Generates high-quality videos using AI technology, incorporating dynamic animations, sound, and visuals tailored to user specifications. |
 | **AI Halloween Character Generation Workflow with Hailou AI** | Creates Halloween-themed videos using spooky effects, animations, and themed visuals with Hailuo AI. |
-| **Halloween Image Generator**         | Produces Halloween-inspired images, adding eerie filters and designs to user-provided photos.          |
 | **AI Lego Character Generation Workflow with Hailou AI**          | Transforms user-uploaded images into Lego-style characters for a fun, blocky visual representation.    |
 | **Expectant Parents Generation + Pika Effect** | Combines features of two parent images to create a potential future child's photo, adding Pika effect for a stylized look. |
 | **AI Age Progression: 10 to 60 Years AI Image Generation Workflow**      | Generates video showing age progression from childhood to older adulthood.                         |
