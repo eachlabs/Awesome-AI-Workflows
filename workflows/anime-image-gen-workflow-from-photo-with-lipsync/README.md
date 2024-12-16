@@ -1,10 +1,9 @@
-# Photo to Anime Generator + Lipsync
+# Anime AI Image Generation Workflow from Photo with Lipsync
 
-<img src="images/photo-anime-generator-full.jpeg" alt="Photo to Anime Generator + Lipsync" />
+<img src="images/photo-anime-generator-full.jpeg" alt="Anime AI Image Generation Workflow from Photo with Lipsync" />
 
 ## Overview
-
-The **Photo to Anime Generator + Lipsync** flow takes in an image and an audio file, enhances the image, converts it to an anime-style character, and synchronizes the character's lips with the provided audio file. The final output is an anime-style video with synchronized lip movements, perfect for creating personalized animated videos.
+Create Anime AI Images from Photos with Lipsync using Eachlabs workflows and Hailou AI—ideal for seamless integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 
