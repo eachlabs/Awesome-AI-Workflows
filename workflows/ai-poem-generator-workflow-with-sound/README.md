@@ -1,9 +1,9 @@
-# Poem Generator with Sound
+# AI Poem Generator Workflow with Sound
 
-<img src="images/poem-generator-with-sound-full.jpeg" alt="Poem Generator with Sound Banner"/>
+<img src="images/poem-generator-with-sound-full.jpeg" alt="AI Poem Generator Workflow with Sound"/>
 
 ## Overview
-The Poem Generator with Sound enables users to create personalized poetry with voice and visual synchronization. By providing inputs such as poem type, theme, and speaker audio, the system generates poetry videos with cloned voices and synchronized visuals.
+AI Poem Generator Workflow with Sound: Generate poems using AI, add sound, and seamlessly integrate them into your application with Eachlabs API.
 
 ## Features
 - **Poetry Generation**: Create poems based on style, theme, and length.
