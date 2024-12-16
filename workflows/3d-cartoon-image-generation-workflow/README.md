@@ -1,9 +1,9 @@
-# 3D Cartoon Character Photo Generator
+# 3D-Cartoon Image Generation Worfklow
 
-<img src="images/3d-cartoon-character-generator-full.jpeg" alt="3D Cartoon Character Generator"/>
+<img src="images/3d-cartoon-character-generator-full.jpeg" alt="3D-Cartoon Image Generation Worfklow"/>
 
 ## Overview
-The **3D Cartoon Character Photo Generator** flow transforms input images into 3D cartoon-style characters using AI models. The system processes the image and applies advanced image-to-image transformation techniques, converting real-life images into stylized 3D cartoon characters. This tool is ideal for creators looking to generate fun and engaging cartoon avatars from photos.
+Generate 3D-Cartoon Images using Eachlabs workflows—seamlessly integrate 3D-cartoon style image generation into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **3D Cartoon Character Generation**
