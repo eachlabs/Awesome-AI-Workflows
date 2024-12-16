@@ -5,7 +5,8 @@
 
 ## Overview
 
-The Change Clothes with Kolors API allows users to virtually try on different outfits using AI techniques. By uploading a photo, the API analyzes the user's body and facial features to accurately replace clothing in the image. It generates a hyper-realistic representation of the new outfit on the user, facilitating style exploration and fashion experimentation. This tool streamlines the process of trying on clothes without physical fitting, providing an efficient way to visualize different looks.
+Change Clothes with Kolors API using Eachlabs workflows—seamlessly integrate clothing customization into your web and mobile applications with Eachlabs API.
+
 
 ## Features
 - **High-Quality Clothing Replacement**: Generate realistic images with new clothes applied seamlessly.
