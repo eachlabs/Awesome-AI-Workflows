@@ -1,9 +1,9 @@
-# Dancing Creator (Hailuo)
+# Dance AI Video Generation with Hailuo AI 
 
-<img src="images/dancing-creator-hailuo-full.jpeg" alt="Dancing Creator Flow" />
+<img src="images/dancing-creator-hailuo-full.jpeg" alt="Dance AI Video Generation with Hailuo AI " />
 
 ## Overview
-The Dancing Creator flow is designed to create a fun and engaging dance video by using a photo and a chosen dance style. The system analyzes the uploaded image, enhances realism, swaps the face onto a dancer, and produces a dynamic dance video.
+Create and customize AI dance videos using Hailuo AI and our Eachlabs workflow for easy integration into your web and mobile applications with Eachlabs API.
 
 ## Use Cases
 - Fun personal dance videos.

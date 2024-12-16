@@ -97,7 +97,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **Video Poem Generator**                | Turns poems into creative videos with animated visuals and text.                                   |
 | **Story Animation AI Video Generation Workflow**                     | Brings stories to life with animated characters and scenes.                                        |
 | **Future Visualization**                | Visualizes possible future scenarios based on user input.                                          |
-| **Dancing Creator (Hailuo)**            | Creates dynamic dancing animations with customizable styles.                                       |
+| **Dance AI Video Generation with Hailuo AI**            | Creates dynamic dancing animations with customizable styles.                                       |
 | **Ideal Partner Profile Maker**         | Generates a detailed profile of your ideal partner, tailored to your preferences.                 |
 
 ## Resources
