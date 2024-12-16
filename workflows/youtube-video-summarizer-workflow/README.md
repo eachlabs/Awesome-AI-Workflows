@@ -2,7 +2,6 @@
 
 <img src="images/youtube-video-summarizer-full.jpeg" alt="Youtube Video Summarizer Workflow"/>
 
-
 ## Overview
 Create YouTube Video Summaries using Eachlabs workflows—easily integrate automatic video summarization into your web and mobile applications with Eachlabs API.
 

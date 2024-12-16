@@ -1,8 +1,6 @@
 # Yearbook Style Generation AI Workflow
 
-
 <img src="images/yearbook-style-generator-full.jpeg" alt="Yearbook Style Generation AI Workflow"/>
-
 
 ## Overview
 

@@ -1,5 +1,3 @@
-
-
 <div align="center">
   <a href="https://www.eachlabs.ai">
     <img src="images/logo-light-full.png" alt="Eachlabs Logo" width="100" height="100">

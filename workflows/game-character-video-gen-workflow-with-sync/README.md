@@ -1,6 +1,6 @@
-# AI Game Character Video Generation Workflow with Sync.
+# AI Game Character Video Generation Workflow with Sync
 
-<img src="images/game-video-generator-sync-full.jpeg" alt="AI Game Character Video Generation Workflow with Sync."/>
+<img src="images/game-video-generator-sync-full.jpeg" alt="AI Game Character Video Generation Workflow with Sync"/>
 
 ## Overview
 Create AI Game Character Videos with Sync using Eachlabs workflows—perfect for seamless integration into your web and mobile applications with Eachlabs API.
