@@ -56,7 +56,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **Clay Photo Generation**          | Converts regular photos into artistic clay-style visuals using AI techniques.                             |
 | **Expectant Parents Photo Generator**          | Takes a photo of a woman and a man to generate images of an expectant mother and father. It offers a fun way to visualize parenthood dreams.             |
 | **Character Photo Generation with FLUX1.1[pro]**     | Creates custom characters based on user-defined attributes and styles.                     | 
-| **Avatar Photo Generation**           | Generates personalized avatars based on user-provided images or descriptions. |
+| **Avatar Generation with Flux**           | Generates personalized avatars based on user-provided images or descriptions. |
 | **RVC Runner**                  | Converts any voice into another using Real-time Voice Cloning (RVC) technology.|
 | **Wedding Photo Generator**     | Creates beautiful and natural wedding photos with realistic poses and emotions. |
 | **AI Song Cover**               | Generates AI-based song covers by mimicking any artist's voice or style.      |

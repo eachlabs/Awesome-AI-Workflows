@@ -1,10 +1,10 @@
-# Avatar Photo Generation
+# Avatar Generation with Flux
 
-<img src="images/avatar-photo-generation-full.jpeg" alt="Avatar Photo Generation"/>
+<img src="images/avatar-photo-generation-full.jpeg" alt="Avatar Generation with Flux"/>
 
 
 ## Overview
-The Avatar Photo Generation AI makes it easy to create custom avatars based on user choices. By using details like favorite animal, color, and accessories, the model creates a unique avatar. It's a simple tool for anyone looking to quickly make personalized avatars.
+Generate Avatars with Flux using Eachlabs workflows—easily integrate custom avatars into your web and mobile applications with Eachlabs API.
 
 
 ## Features
