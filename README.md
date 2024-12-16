@@ -53,7 +53,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **3D-Cartoon Image Generation Worfklow**    | Creates 3D cartoon characters based on user-provided images or specifications. |
 | **Animate Face with Video Generator** | Animates facial expressions in videos for more dynamic storytelling.           |
 | **Anime AI Image Generation Workflow**       | Transforms images into anime-style visuals through AI processing.                   |
-| **Clay Photo Generation**          | Converts regular photos into artistic clay-style visuals using AI techniques.                             |
+| **Clay Style AI Image Generation Workflow**          | Converts regular photos into artistic clay-style visuals using AI techniques.                             |
 | **Expectant Parents Photo Generator**          | Takes a photo of a woman and a man to generate images of an expectant mother and father. It offers a fun way to visualize parenthood dreams.             |
 | **Character Photo Generation with FLUX1.1[pro]**     | Creates custom characters based on user-defined attributes and styles.                     | 
 | **Avatar Generation with Flux**           | Generates personalized avatars based on user-provided images or descriptions. |

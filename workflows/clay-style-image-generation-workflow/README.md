@@ -1,9 +1,9 @@
-# Clay Style Photo Generation
+# Clay Style AI Image Generation Workflow
 
-<img src="images/clay-photo-generation-full.jpeg" alt="Clay Photo Generator"/>
+<img src="images/clay-photo-generation-full.jpeg" alt="Clay Style AI Image Generation Workflow"/>
 
 ## Overview
-The **Clay Style Photo Generator** uses advanced AI models to transform user-uploaded images into unique clay-like artistic visuals. It processes an input image through multiple stages of transformation, producing an enhanced and refined clay-style photo. This tool is ideal for those looking for a creative and fun way to generate artistic content from regular images.
+Create Clay Style AI Images using Eachlabs workflows—seamlessly integrate clay-inspired visuals into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Clay-like Visual Transformation**
