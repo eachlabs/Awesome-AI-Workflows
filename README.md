@@ -44,7 +44,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **Change Clothes with Kolors API** | Transforms outfits in images using Kolors API for fashion alterations.           |
 | **Future Baby Photo Generator**       | Generates future baby images by combining photos of parents.                   |
 | **AI Logo Generation Workflow**          | Creates custom graphic logos based on user input.                             |
-| **Interior Photo Generator**          | Designs interior layouts and decorations with AI-generated ideas.             |
+| **Interior AI Image Generation Workflow**          | Designs interior layouts and decorations with AI-generated ideas.             |
 | **Striking Product Photo Images**     | Enhances product images with high-quality visual effects.                     |
 | **Talking Faces**               | Animates still images into talking faces for interactive use.                 |
 | **Text Logo Photo Maker**             | Creates text-based logos using customizable fonts and styles.                 |

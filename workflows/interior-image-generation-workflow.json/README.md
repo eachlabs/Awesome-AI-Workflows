@@ -1,12 +1,12 @@
-# AI Interior Architecture API
+# Interior AI Image Generation Workflow
 
 
-<img src="images/interior-generator-full.jpeg" alt="Interior Generator"/>
+<img src="images/interior-generator-full.jpeg" alt="Interior AI Image Generation Workflow"/>
 
 
 ## Overview
 
-AI Interior Architecture API AI model uses AI techniques to take a regular room image and turn it into a redesigned interior. It works by analyzing the layout, lighting, and features of the input image and then creating a new version that improves the space’s appearance and function. This tool is useful for homeowners, designers, and real estate agents to quickly see how a room could look after changes. The model offers a straightforward way to plan interior updates and visualize different design ideas.
+Create Interior Design AI Images using Eachlabs workflows—easily integrate custom interior design visuals into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Dynamic Room Styles**
