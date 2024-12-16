@@ -1,6 +1,6 @@
-# Age Progression: 10 to 60 Years
+# AI Age Progression: 10 to 60 Years AI Image Generation Workflow
 
-<img src="images/age-progression-10-to-60-years-full.jpeg" alt="Age Progression 10 to 60 Years ">
+<img src="images/age-progression-10-to-60-years-full.jpeg" alt="AI Age Progression: 10 to 60 Years AI Image Generation Workflow ">
 
 ## Overview
 The Age Progression tool creates a series of images that simulate aging from childhood to older adulthood. By utilizing face analysis, img-to-img processing, and interpolation techniques, this tool provides a visual timeline of a person's aging process over time.
