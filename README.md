@@ -46,7 +46,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **AI Logo Generation Workflow**          | Creates custom graphic logos based on user input.                             |
 | **Interior AI Image Generation Workflow**          | Designs interior layouts and decorations with AI-generated ideas.             |
 | **Striking Product Photo Images**     | Enhances product images with high-quality visual effects.                     |
-| **Talking Faces**               | Animates still images into talking faces for interactive use.                 |
+| **Talking Faces Video Generation Workflow**               | Animates still images into talking faces for interactive use.                 |
 | **Text Logo Photo Maker**             | Creates text-based logos using customizable fonts and styles.                 |
 | **Yearbook Style Generation AI Workflow**    | Generates yearbook-style images with a nostalgic touch.                       |
 | **Youtube Video Summarizer Workflow**    | Summarizes YouTube videos by extracting key points and highlights.            |

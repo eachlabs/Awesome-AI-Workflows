@@ -2,13 +2,13 @@
 
 
 
-# Video-Retalking AI Flow
+# Talking Faces Video Generation Workflow
 
-  <img src="images/talking-faces-full.jpeg" alt="Video Retalking"/>
+  <img src="images/talking-faces-full.jpeg" alt="Talking Faces Video Generation Workflow"/>
 
 
 ## Overview
-The Video-Retalking AI model uses deep learning to synchronize lip movements in a video with a target audio track. It analyzes both the video and audio to adjust facial movements, ensuring realistic lip-syncing. This tool is useful for dubbing, content creation, and video production, making the process more efficient by automating the synchronization between video and new audio.
+Generate Talking Faces Videos using Eachlabs workflows—seamlessly integrate animated faces with synchronized speech into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **High-Quality Lip Sync**
