@@ -66,7 +66,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **HeadShot Image Generator + Lip Sync**         | Produces professional headshots and adds synchronized lip movements for various speaking roles.   |
 | **Wedding Generator + Hug (Hailuo)**            | Generates beautiful wedding photos featuring natural poses, emotions, and hugging scenes.         |
 | **Photo to Anime Generator + Lip Sync**         | Converts photos into anime-style visuals with the option to animate lip movements for voiceovers.  |
-| **Anime Video Generator with Hailuo**           | Produces anime-style videos using AI to generate dynamic characters and scenes.                   |
+| **Anime AI Video Generation with Hailou AI**           | Produces anime-style videos using AI to generate dynamic characters and scenes.                   |
 | **3D Cartoon Image Generation Workflow with Hailou AI**         | Creates 3D cartoon images with customizable characters and styles using advanced AI technology.    |
 | **AI Expectant Parents + Hug with Hailou AI**            | Generates images of expectant parents, showcasing natural and emotional hugging moments.           |
 | **Video Gen with Hailuo**                       | Generates high-quality videos using AI technology, incorporating dynamic animations, sound, and visuals tailored to user specifications. |

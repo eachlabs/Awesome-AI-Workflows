@@ -1,9 +1,9 @@
-# Anime Video Generator with Hailuo
+# Anime AI Video Generation with Hailou AI
 
-<img src="images/anime-video-generator-hailuo-full.jpeg" alt="Anime Video Generator"/>
+<img src="images/anime-video-generator-hailuo-full.jpeg" alt="Anime AI Video Generation with Hailou AI"/>
 
 ## Overview
-The Anime Video Generator with Hailuo is a tool that allows you to create anime-style videos based on character prompts and images. By simply providing an image and a story prompt, the tool enhances the image, generates the character, and produces a short anime video.
+Generate Anime AI Videos with Hailou AI using Eachlabs workflows—perfect for seamless integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Image Enhancement** with GFPGAN
