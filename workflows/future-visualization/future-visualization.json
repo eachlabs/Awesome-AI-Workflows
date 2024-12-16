@@ -1,0 +1,58 @@
+{
+    "name": "Future Visualization",
+    "description": "",
+    "nodes_json": "[{\"id\":\"0\",\"type\":\"inputNode\",\"data\":{\"title\":\"Inputs\",\"description\":\"Add Inputs\",\"type\":\"input\",\"step\":1,\"inputs\":[{\"inputId\":\"0\",\"type\":\"string\",\"variableName\":\"target_or_desire\",\"defaultValue\":\"To become a successful entrepreneur\",\"required\":false,\"originalValue\":\"target_or_desire\"},{\"inputId\":\"1\",\"type\":\"string\",\"variableName\":\"things_to_have\",\"defaultValue\":\"A technology company that I designed myself\",\"required\":false,\"originalValue\":\"things_to_have\"},{\"inputId\":\"2\",\"type\":\"string\",\"variableName\":\"how_to_be_someone\",\"defaultValue\":\"By working consistently every day and managing my time effectively\",\"required\":false,\"originalValue\":\"how_to_be_someone\"},{\"inputId\":\"3\",\"type\":\"string\",\"variableName\":\"how_life_should_look\",\"defaultValue\":\"A life where I can travel freely and be surrounded by people I love\",\"required\":false,\"originalValue\":\"how_life_should_look\"}],\"selected\":false},\"position\":{\"x\":0,\"y\":50},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":50}},{\"id\":\"1\",\"data\":{\"model\":{\"id\":61,\"title\":\"ChatGPT\",\"type\":\"inference\",\"source\":{\"name\":\"OpenAI\",\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\"},\"name\":\"openai-chatgpt\",\"slug\":\"openai-chatgpt\",\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/models/openai-chatgpt.webp\",\"description\":\"Run OpenAI ChatGPT in your flows!\",\"version\":\"gpt-4o\",\"category\":{\"id\":47,\"name\":\"Text\",\"slug\":\"text\"},\"gpu_device_id\":{\"full_name\":\"A100 40GB\",\"price\":0.0015},\"inputs\":{\"image_url\":{\"name\":\"image_url\",\"type\":\"string\",\"title\":\"Image Url\",\"component\":\"file\",\"order\":0,\"description\":false,\"default\":false,\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":false,\"value\":\"\"},\"model\":{\"name\":\"model\",\"type\":\"string\",\"title\":\"Model Name\",\"component\":\"select\",\"order\":1,\"description\":\"Please select your model name.\",\"default\":\"gpt-4o\",\"minimum\":0,\"maximum\":0,\"required\":true,\"flow_type\":\"string\",\"options\":\"gpt-4o\",\"value\":\"gpt-4o\"},\"system_prompt\":{\"name\":\"system_prompt\",\"type\":\"string\",\"title\":\"System Prompt\",\"component\":\"input\",\"order\":3,\"description\":\"You can define a role to your GPT.\",\"default\":\"You are an helpful assistant\",\"minimum\":0,\"maximum\":0,\"required\":true,\"flow_type\":\"string\",\"options\":false,\"value\":\"You are an helpful assistant\"},\"max_tokens\":{\"name\":\"max_tokens\",\"type\":\"integer\",\"title\":\"Max Tokens\",\"component\":\"input\",\"order\":4,\"description\":\"You can limit your output tokens. \",\"default\":\"512\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"integer\",\"options\":false,\"value\":\"512\"},\"user_prompt\":{\"name\":\"user_prompt\",\"type\":\"string\",\"title\":\"User Prompt\",\"component\":\"input\",\"order\":4,\"description\":\"User Prompt\",\"default\":\"Hello from EachAI!\",\"minimum\":0,\"maximum\":0,\"required\":true,\"flow_type\":\"string\",\"options\":false,\"value\":\"Write a story that tells an image of myself as a future self based on this description:  \\ntarget_or_desire:  {{workflow.parameters.target_or_desire}},  \\nthings_to_have: {{workflow.parameters.things_to_have}},  \\nhow_to_be_someone: {{workflow.parameters.how_to_be_someone}},  \\nhow_life_should_look: {{workflow.parameters.how_life_should_look}}  \\n\\nThe output should be short, vivid, and detailed. Describe the scene in a way that brings the future self to life, harmonizing all the provided details. The text should not include the word \\\"wav\\\" or any word containing \\\"wav\\\".  \\n\"},\"message_array\":{\"name\":\"message_array\",\"type\":\"string\",\"title\":\"Message Array\",\"component\":\"input\",\"order\":5,\"description\":\"Add your system and user messages into an array\",\"default\":false,\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":false,\"value\":\"\"}},\"output_type\":false,\"flow_output_type\":\"string\",\"output_object_key\":false,\"average_response_time\":5,\"fixed_charge\":false,\"charge\":0.0075},\"step\":2,\"selected\":true},\"type\":\"modelNode\",\"width\":1,\"height\":1,\"position\":{\"x\":0,\"y\":170},\"positionAbsolute\":{\"x\":0,\"y\":170}},{\"id\":\"2\",\"data\":{\"model\":{\"id\":115,\"title\":\"Flux 1.1 Pro\",\"type\":\"inference\",\"source\":{\"name\":\"1019Model\",\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\"},\"name\":\"flux-1.1-pro\",\"slug\":\"flux-1-1-pro\",\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/thumbs/flux1.1-pro.jpg\",\"description\":\"Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.\",\"version\":\"0.0.1\",\"category\":{\"id\":46,\"name\":\"Image\",\"slug\":\"image\"},\"gpu_device_id\":{\"full_name\":\"A100 80GB\",\"price\":0.002},\"inputs\":{\"prompt\":{\"name\":\"prompt\",\"type\":\"string\",\"title\":\"Prompt\",\"component\":\"input\",\"order\":0,\"description\":\"Text prompt for image generation\",\"default\":\"Ultra realistic woman, IMG_5432.HEIC, nyc background\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":\"\",\"value\":\"{{step1.output}}\"},\"aspect_ratio\":{\"name\":\"aspect_ratio\",\"type\":\"string\",\"title\":\"aspect_ratio\",\"component\":\"select\",\"order\":1,\"description\":\"An enumeration.\",\"default\":\"1:1\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":\"custom,1:1,16:9,2:3,3:2,4:5,5:4,9:16,3:4,4:3\",\"value\":\"1:1\"},\"width\":{\"name\":\"width\",\"type\":\"integer\",\"title\":\"Width\",\"component\":\"slider\",\"order\":2,\"description\":\"Width of the generated image in text-to-image mode. Only used when aspect_ratio=custom. Must be a multiple of 16 (if it's not, it will be rounded to nearest multiple of 16). Note: Ignored in img2img and inpainting modes.\",\"default\":\"\",\"minimum\":256,\"maximum\":1440,\"required\":false,\"flow_type\":\"integer\",\"options\":\"\",\"value\":\"\"},\"height\":{\"name\":\"height\",\"type\":\"integer\",\"title\":\"Height\",\"component\":\"slider\",\"order\":3,\"description\":\"Height of the generated image in text-to-image mode. Only used when aspect_ratio=custom. Must be a multiple of 16 (if it's not, it will be rounded to nearest multiple of 16). Note: Ignored in img2img and inpainting modes.\",\"default\":\"\",\"minimum\":256,\"maximum\":1440,\"required\":false,\"flow_type\":\"integer\",\"options\":\"\",\"value\":\"\"},\"safety_tolerance\":{\"name\":\"safety_tolerance\",\"type\":\"integer\",\"title\":\"Safety Tolerance\",\"component\":\"slider\",\"order\":4,\"description\":\"Safety tolerance, 1 is most strict and 5 is most permissive\",\"default\":2,\"minimum\":1,\"maximum\":5,\"required\":false,\"flow_type\":\"integer\",\"options\":\"\",\"value\":2},\"seed\":{\"name\":\"seed\",\"type\":\"integer\",\"title\":\"Seed\",\"component\":\"input\",\"order\":5,\"description\":\"Random seed. Set for reproducible generation\",\"default\":\"\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"integer\",\"options\":\"\",\"value\":\"\"},\"prompt_upsampling\":{\"name\":\"prompt_upsampling\",\"type\":\"boolean\",\"title\":\"Prompt Upsampling\",\"component\":\"checkbox\",\"order\":6,\"description\":\"Automatically modify the prompt for more creative generation\",\"default\":true,\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"boolean\",\"options\":\"\",\"value\":true},\"output_format\":{\"name\":\"output_format\",\"type\":\"string\",\"title\":\"output_format\",\"component\":\"select\",\"order\":7,\"description\":\"An enumeration.\",\"default\":\"webp\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":\"webp,jpg,png\",\"value\":\"webp\"},\"output_quality\":{\"name\":\"output_quality\",\"type\":\"integer\",\"title\":\"Output Quality\",\"component\":\"slider\",\"order\":8,\"description\":\"Quality when saving the output images, from 0 to 100. 100 is best quality, 0 is lowest quality. Not relevant for .png outputs\",\"default\":80,\"minimum\":0,\"maximum\":100,\"required\":false,\"flow_type\":\"integer\",\"options\":\"\",\"value\":80}},\"output_type\":\"image\",\"flow_output_type\":\"image\",\"output_object_key\":false,\"average_response_time\":12,\"fixed_charge\":true,\"charge\":0.044},\"step\":3,\"selected\":false},\"type\":\"modelNode\",\"width\":1,\"height\":1,\"position\":{\"x\":0,\"y\":290},\"positionAbsolute\":{\"x\":0,\"y\":290}},{\"id\":\"3\",\"type\":\"outputNode\",\"data\":{\"title\":\"Outputs\",\"description\":\"Add Outputs\",\"type\":\"output\",\"step\":4,\"selected\":false},\"position\":{\"x\":0,\"y\":410},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":410}}]",
+    "edges_json": "[{\"id\":\"e_0_1\",\"source\":\"0\",\"target\":\"1\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_1_2\",\"source\":\"1\",\"target\":\"2\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_2_3\",\"source\":\"2\",\"target\":\"3\",\"type\":\"addableEdge\",\"animated\":true}]",
+    "inputs": [
+        {
+            "name": "target_or_desire",
+            "type": "string",
+            "default_value": "To become a successful entrepreneur"
+        },
+        {
+            "name": "things_to_have",
+            "type": "string",
+            "default_value": "A technology company that I designed myself"
+        },
+        {
+            "name": "how_to_be_someone",
+            "type": "string",
+            "default_value": "By working consistently every day and managing my time effectively"
+        },
+        {
+            "name": "how_life_should_look",
+            "type": "string",
+            "default_value": "A life where I can travel freely and be surrounded by people I love"
+        }
+    ],
+    "steps": [
+        {
+            "id": "step1",
+            "name": "ChatGPT",
+            "type": "OpenAI",
+            "model_slug": "openai-chatgpt",
+            "model_version": "gpt-4o",
+            "params": {
+                "max_tokens": 512,
+                "model": "gpt-4o",
+                "system_prompt": "You are an helpful assistant",
+                "user_prompt": "Write a story that tells an image of myself as a future self based on this description:  \ntarget_or_desire:  {{workflow.parameters.target_or_desire}},  \nthings_to_have: {{workflow.parameters.things_to_have}},  \nhow_to_be_someone: {{workflow.parameters.how_to_be_someone}},  \nhow_life_should_look: {{workflow.parameters.how_life_should_look}}  \n\nThe output should be short, vivid, and detailed. Describe the scene in a way that brings the future self to life, harmonizing all the provided details. The text should not include the word \"wav\" or any word containing \"wav\".  \n"
+            }
+        },
+        {
+            "id": "step2",
+            "name": "Flux 1.1 Pro",
+            "type": "1019Model",
+            "model_slug": "flux-1-1-pro",
+            "model_version": "0.0.1",
+            "params": {
+                "aspect_ratio": "1:1",
+                "output_format": "webp",
+                "output_quality": 80,
+                "prompt": "{{step1.output}}",
+                "prompt_upsampling": false,
+                "safety_tolerance": 2
+            }
+        }
+    ]
+}
