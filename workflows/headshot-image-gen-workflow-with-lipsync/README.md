@@ -1,10 +1,8 @@
-# Headshot Image Generator + Lipsync
-
-<img src="images/headshot-image-generator-hailuo-full.jpeg" alt="Headshot Image Generator + Lipsync"/>
+# Headshot AI Image Generation Workflow with Lipsync
+<img src="images/headshot-image-generator-hailuo-full.jpeg" alt="Headshot AI Image Generation Workflow with Lipsync"/>
 
 ## Overview
-
-The **Headshot Image Generator + Lipsync** flow combines two AI-powered tools to create a realistic headshot image from a text-based description and synchronize it with provided audio to generate a video with accurate lip synchronization. This workflow is designed for video content creators, virtual avatars, or anyone needing lifelike character videos with synchronized speech.
+Create Headshot AI Images with Lipsync using Eachlabs workflows and Hailou AI—perfect for seamless integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **AI-Generated Realistic Headshots**: Creates lifelike headshot images based on text inputs.

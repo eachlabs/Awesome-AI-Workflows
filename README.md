@@ -63,7 +63,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **Voice Summarizer**            | Summarizes spoken content from audio or video files with AI for quick insights. |
 | **Short Film Generator using Hailuo AI**            | Generates short films using AI with realistic characters, scenes, and cinematic effects.         |
 | **Character Video Generator with Hailuo**       | Creates character-driven video content with customizable attributes and dynamic animations.       |
-| **HeadShot Image Generator + Lip Sync**         | Produces professional headshots and adds synchronized lip movements for various speaking roles.   |
+| **Headshot AI Image Generation Workflow with Lipsync**         | Produces professional headshots and adds synchronized lip movements for various speaking roles.   |
 | **Wedding Generator + Hug (Hailuo)**            | Generates beautiful wedding photos featuring natural poses, emotions, and hugging scenes.         |
 | **Anime AI Image Generation Workflow from Photo with Lipsync**         | Converts photos into anime-style visuals with the option to animate lip movements for voiceovers.  |
 | **Anime AI Video Generation with Hailou AI**           | Produces anime-style videos using AI to generate dynamic characters and scenes.                   |
