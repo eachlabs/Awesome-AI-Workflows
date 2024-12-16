@@ -1,9 +1,9 @@
-# Expectant Parents + Hug (Hailuo)
+# AI Expectant Parents + Hug with Hailou AI
 
-<img src="images/expectant-parents-hug-hailuo-full.jpeg" alt="Expectant Parents Hug Workflow"/>
+<img src="images/expectant-parents-hug-hailuo-full.jpeg" alt="AI Expectant Parents + Hug with Hailou AI"/>
 
 ## Overview
-The **Expectant Parents + Hug (Hailuo)** workflow allows the generation of a warm, affectionate image of expectant parents hugging each other. Using face analysis and AI image generation, it personalizes the interaction based on the input images of a woman and a man. Additionally, a short video can be generated to bring this moment to life.
+Create AI-generated Expectant Parents + Hug scenes with Hailou AI using Eachlabs workflows—ideal for seamless integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Face Analysis** to customize expressions and facial features
