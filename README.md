@@ -89,7 +89,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **Age Progression: 10 to 30 Years**            | Shows a visual timeline of aging from childhood to young adulthood.                                  |
 | **Age Progression: 10 to 20 Years**            | Displays age transformation from childhood through late teenage years.                               |
 | **Wedding Generator + Kiss (Hailuo)**          | Creates a beautiful wedding scene with a loving kiss, enhanced by Hailuo’s realistic effects.        |
-| **Expectant Parents + Kiss (Hailuo)**          | Generates a heartwarming image of expectant parents sharing a gentle kiss, using Hailuo’s styling.   |
+| **AI Expectant Parents with Kiss with Hailuo AI**          | Generates a heartwarming image of expectant parents sharing a gentle kiss, using Hailuo’s styling.   |
 | **Baby Ultrasound Photo Maker**            | Generates realistic ultrasound-style photos, capturing the earliest moments with detailed clarity.                        |
 | **Baby Ultrasound Video Creation (Hailuo)**    | Creates videos of ultrasound photos, capturing special moments with Hailuo's realistic touch.        |
 | **Sport Image Generation with Flux**           | Creates stylish sports-themed photos, blending action with fashion.                                 |

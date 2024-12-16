@@ -1,10 +1,10 @@
-# Expectant Parents + Kiss (Hailuo)
+# AI Expectant Parents with Kiss with Hailuo AI
 
-<img src="images/expectant-parents-kiss-hailuo-full.jpeg" alt="Expectant Parents + Kiss (Hailuo)" />
+<img src="images/expectant-parents-kiss-hailuo-full.jpeg" alt="AI Expectant Parents with Kiss with Hailuo AI" />
 
 ## Overview
 
-The **Expectant Parents + Kiss (Hailuo)** flow takes images of a man and a woman, analyzes their facial features, and generates a themed image depicting expectant parents in a loving kiss. It then processes the generated image into a video format that captures the special moment. This flow is designed for creating memorable visuals and videos for expectant parents from uploaded images.
+Create AI Expectant Parents videos using Hailuo AI and our Eachlabs workflow for easy integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 
