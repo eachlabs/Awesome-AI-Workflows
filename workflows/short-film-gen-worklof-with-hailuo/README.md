@@ -1,9 +1,9 @@
-# Short Film Generator using Hailuo AI
+# AI Short Film Generation Workflow with Hailou AI
 
-<img src="images/short-film-hailuo-full.jpeg" alt="Short Film Hailuo Generator"/>
+<img src="images/short-film-hailuo-full.jpeg" alt="AI Short Film Generation Workflow with Hailou AI"/>
 
 ## Overview
-The Short Film Generator using Hailuo AI helps you create short films by taking a simple idea and an age range as input. It uses AI tools like ChatGPT to write a story based on your idea, and then Hailuo AI turns that story into an animated video. It’s a fast and easy way to bring your concept to life.
+Generate AI Short Films with Hailuo AI using Eachlabs workflows—perfect for seamless integration into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **AI-Powered Story Creation**
