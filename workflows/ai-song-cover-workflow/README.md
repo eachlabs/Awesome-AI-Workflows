@@ -1,10 +1,10 @@
-# AI Song Cover
+# AI Song Cover Workflow
 
-<img src="images/ai-song-cover-full.jpeg" alt="AI Song Cover"/>
+<img src="images/ai-song-cover-full.jpeg" alt="AI Song Cover Workflow"/>
 
 ## Overview
 
-The AI Song Cover workflow automates the process of creating custom song covers by leveraging advanced vocal separation and model training techniques. Users provide an input voice and a target song, and the system generates a cover version of the target song using the input voice.
+Generate AI-generated Song Covers using Eachlabs workflows—seamlessly integrate custom song cover designs into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Vocal Separation**: Isolates vocals from the input audio using Spleeter.
