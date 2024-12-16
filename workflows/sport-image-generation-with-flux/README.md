@@ -1,9 +1,10 @@
-# Sport & Style Photo Maker
+# Sport Image Generation with Flux
 
-<img src="images/sport-style-photo-maker-full.jpeg" alt="Sport & Style Photo Maker" />
+<img src="images/sport-style-photo-maker-full.jpeg" alt="Sport Image Generation with Flux" />
 
 ## Overview
-Sport & Style Photo Maker transforms your photo into a stylish, sport-themed image based on the sport type you choose. Simply upload a photo, select a sport, and the system takes care of the rest.
+Create Sports Images with Flux using Eachlabs workflows—seamlessly integrate dynamic sports workflow into your web and mobile applications with Eachlabs API.
+
 
 ## Features
 - **Face Analysis**: Analyzes facial features from your uploaded photo.
