@@ -74,7 +74,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **AI Game Character Video Generation Workflow with with Hailuo AI** | Generates video animations of game characters with customizable features, based on the Hailuo model. |
 | **AI Game Character Generation Workflow with Flux**             | Creates unique game character designs based on user specifications.                                 |
 | **Wedding Generator + Kiss (Hailuo)**          | Creates a beautiful wedding scene with a loving kiss, enhanced by Hailuo’s realistic effects.        |
-| **AI Expectant Parents Kiss with Hailuo AI**          | Generates a heartwarming image of expectant parents sharing a gentle kiss, using Hailuo’s styling.   |
+| **Expectant Parents Kiss with Hailuo AI**          | Generates a heartwarming image of expectant parents sharing a gentle kiss, using Hailuo’s styling.   |
 | **Sport Image Generation with Flux**           | Creates stylish sports-themed photos, blending action with fashion.                                 |
 | **AI Poem Generator Workflow with Sound**           | Generates poems accompanied by matching sound effects or music.                                    |
 | **Video Poem Generator**                | Turns poems into creative videos with animated visuals and text.                                   |
