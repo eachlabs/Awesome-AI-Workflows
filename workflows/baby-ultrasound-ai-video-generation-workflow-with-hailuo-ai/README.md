@@ -33,23 +33,7 @@ Create Baby Ultrasound videos using Hailuo AI and our Eachlabs workflow for easy
 
 **Description:** Upload an ultrasound scan of the baby. The system will animate and enhance this image to generate the final video output.
 
----
 
-## Workflow Steps
-
-1. **Face Analyzer by Each AI**  
-   Processes and analyzes parental images (`mom_image` and `dad_image`) for accurate facial features.
-
-2. **GFPGAN**  
-   Restores and enhances the quality of the provided parental images.
-
-3. **Flux Dev**  
-   Processes the ultrasound image to ensure seamless integration for animation.
-
-4. **Hailuo Video**  
-   Converts the processed ultrasound scan into a dynamic video output.
-
----
 
 ## Example Input and Output
 
