@@ -1,0 +1,61 @@
+{
+    "name": "AI Poem Generator Workflow with Sound",
+    "description": "",
+    "nodes_json": "[{\"id\":\"0\",\"type\":\"inputNode\",\"data\":{\"title\":\"Inputs\",\"description\":\"Add Inputs\",\"type\":\"input\",\"step\":1,\"inputs\":[{\"inputId\":\"0\",\"type\":\"string\",\"variableName\":\"poetry_type\",\"defaultValue\":\"romantic\",\"required\":false,\"originalValue\":\"poetry_type\"},{\"inputId\":\"1\",\"type\":\"string\",\"variableName\":\"theme\",\"defaultValue\":\"love\",\"required\":false,\"originalValue\":\"theme\"},{\"inputId\":\"2\",\"type\":\"string\",\"variableName\":\"length\",\"defaultValue\":\"8 lines\",\"required\":false,\"originalValue\":\"length\"},{\"inputId\":\"3\",\"type\":\"string\",\"variableName\":\"language_abbreviation\",\"defaultValue\":\"en\",\"required\":false,\"originalValue\":\"language_abbreviation\"},{\"inputId\":\"4\",\"type\":\"voice\",\"variableName\":\"speaker_audio\",\"defaultValue\":\"https://storage.googleapis.com/magicpoint/global_inputs/each-audio.mp3\",\"required\":false,\"originalValue\":\"speaker_audio\"}],\"selected\":true},\"position\":{\"x\":0,\"y\":50},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":50}},{\"id\":\"1\",\"data\":{\"model\":{\"id\":61,\"title\":\"ChatGPT\",\"type\":\"inference\",\"source\":{\"name\":\"OpenAI\",\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\"},\"name\":\"openai-chatgpt\",\"slug\":\"openai-chatgpt\",\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/models/openai-chatgpt.webp\",\"description\":\"Run OpenAI ChatGPT in your flows!\",\"version\":\"gpt-4o\",\"category\":{\"id\":47,\"name\":\"Text\",\"slug\":\"text\"},\"gpu_device_id\":{\"full_name\":\"A100 40GB\",\"price\":0.0015},\"inputs\":{\"image_url\":{\"name\":\"image_url\",\"type\":\"string\",\"title\":\"Image Url\",\"component\":\"file\",\"order\":0,\"description\":false,\"default\":false,\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":false,\"value\":\"\"},\"model\":{\"name\":\"model\",\"type\":\"string\",\"title\":\"Model Name\",\"component\":\"select\",\"order\":1,\"description\":\"Please select your model name.\",\"default\":\"gpt-4o\",\"minimum\":0,\"maximum\":0,\"required\":true,\"flow_type\":\"string\",\"options\":\"gpt-4o\",\"value\":\"gpt-4o\"},\"system_prompt\":{\"name\":\"system_prompt\",\"type\":\"string\",\"title\":\"System Prompt\",\"component\":\"input\",\"order\":3,\"description\":\"You can define a role to your GPT.\",\"default\":\"You are an helpful assistant\",\"minimum\":0,\"maximum\":0,\"required\":true,\"flow_type\":\"string\",\"options\":false,\"value\":\"You are an helpful assistant\"},\"max_tokens\":{\"name\":\"max_tokens\",\"type\":\"integer\",\"title\":\"Max Tokens\",\"component\":\"input\",\"order\":4,\"description\":\"You can limit your output tokens. \",\"default\":\"512\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"integer\",\"options\":false,\"value\":\"512\"},\"user_prompt\":{\"name\":\"user_prompt\",\"type\":\"string\",\"title\":\"User Prompt\",\"component\":\"input\",\"order\":4,\"description\":\"User Prompt\",\"default\":\"Hello from EachAI!\",\"minimum\":0,\"maximum\":0,\"required\":true,\"flow_type\":\"string\",\"options\":false,\"value\":\"Write a poem based on the following parameters:  \\n- Poetry Type: {{workflow.parameters.poetry_type}}\\n- Theme: {{workflow.parameters.theme}}  \\n- Length: {{workflow.parameters.length}} \\n- Language: {{workflow.parameters.language_abbreviation}}\\n\\nThe poem should strictly align with the specified poetry type and theme, match the given length, and be written in the specified language. Output only the poem. Do not include any explanations or additional text.\"},\"message_array\":{\"name\":\"message_array\",\"type\":\"string\",\"title\":\"Message Array\",\"component\":\"input\",\"order\":5,\"description\":\"Add your system and user messages into an array\",\"default\":false,\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":false,\"value\":\"\"}},\"output_type\":false,\"flow_output_type\":\"string\",\"output_object_key\":false,\"average_response_time\":5,\"fixed_charge\":false,\"charge\":0.0075},\"step\":2,\"selected\":false},\"type\":\"modelNode\",\"width\":1,\"height\":1,\"position\":{\"x\":0,\"y\":170},\"positionAbsolute\":{\"x\":0,\"y\":170}},{\"id\":\"2\",\"data\":{\"model\":{\"id\":94,\"title\":\"Voice Cloning\",\"type\":\"inference\",\"source\":{\"name\":\"1019Model\",\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\"},\"name\":\"xtts-v2\",\"slug\":\"xtts-v2\",\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/models/xtts-v2.webp\",\"description\":\"Coqui XTTS-v2: Multilingual Text To Speech Voice Cloning\",\"version\":\"0.0.1\",\"category\":{\"id\":48,\"name\":\"Audio\",\"slug\":\"audio\"},\"gpu_device_id\":{\"full_name\":\"A100 80GB\",\"price\":0.002},\"inputs\":{\"text\":{\"name\":\"text\",\"type\":\"string\",\"title\":\"Text\",\"component\":\"input\",\"order\":0,\"description\":\"This is the written input that you want to be converted into spoken words.\",\"default\":\"Hola, ahora estás en Eachlabs AI. Si necesita ayuda, simplemente contáctenos.\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":\"\",\"value\":\"{{step1.output}}\"},\"speaker\":{\"name\":\"speaker\",\"type\":\"string\",\"title\":\"Speaker\",\"component\":\"file\",\"order\":1,\"description\":\"This determines the specific voice or persona that will speak the provided text.\",\"default\":\"https://storage.googleapis.com/magicpoint/inputs/voice-translate.input.mp3\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":\"\",\"value\":\"{{workflow.parameters.speaker_audio}}\"},\"language\":{\"name\":\"language\",\"type\":\"string\",\"title\":\"language\",\"component\":\"select\",\"order\":2,\"description\":\"This refers to the choice of language for the text-to-speech synthesis.\",\"default\":\"es\",\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"string\",\"options\":\"en,es,fr,de,it,pt,pl,tr,ru,nl,cs,ar,zh,hu,ko,hi\",\"value\":\"{{workflow.parameters.language_abbreviation}}\"},\"cleanup_voice\":{\"name\":\"cleanup_voice\",\"type\":\"boolean\",\"title\":\"Cleanup Voice\",\"component\":\"checkbox\",\"order\":3,\"description\":\"This option helps in refining and improving the quality of the generated speech.\",\"default\":false,\"minimum\":0,\"maximum\":0,\"required\":false,\"flow_type\":\"boolean\",\"options\":\"\",\"value\":\"false\"}},\"output_type\":\"audio\",\"flow_output_type\":\"voice\",\"output_object_key\":false,\"average_response_time\":26,\"fixed_charge\":false,\"charge\":0.052000000000000005},\"step\":3,\"selected\":false},\"type\":\"modelNode\",\"width\":1,\"height\":1,\"position\":{\"x\":0,\"y\":290},\"positionAbsolute\":{\"x\":0,\"y\":290}},{\"id\":\"3\",\"type\":\"outputNode\",\"data\":{\"title\":\"Outputs\",\"description\":\"Add Outputs\",\"type\":\"output\",\"step\":4,\"selected\":false},\"position\":{\"x\":0,\"y\":410},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":410}}]",
+    "edges_json": "[{\"id\":\"e_0_1\",\"source\":\"0\",\"target\":\"1\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_1_2\",\"source\":\"1\",\"target\":\"2\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_2_3\",\"source\":\"2\",\"target\":\"3\",\"type\":\"addableEdge\",\"animated\":true}]",
+    "inputs": [
+        {
+            "name": "poetry_type",
+            "type": "string",
+            "default_value": "romantic"
+        },
+        {
+            "name": "theme",
+            "type": "string",
+            "default_value": "love"
+        },
+        {
+            "name": "length",
+            "type": "string",
+            "default_value": "8 lines"
+        },
+        {
+            "name": "language_abbreviation",
+            "type": "string",
+            "default_value": "en"
+        },
+        {
+            "name": "speaker_audio",
+            "type": "voice",
+            "default_value": "https://storage.googleapis.com/magicpoint/global_inputs/each-audio.mp3"
+        }
+    ],
+    "steps": [
+        {
+            "id": "step1",
+            "name": "ChatGPT",
+            "type": "OpenAI",
+            "model_slug": "openai-chatgpt",
+            "model_version": "gpt-4o",
+            "params": {
+                "max_tokens": 512,
+                "model": "gpt-4o",
+                "system_prompt": "You are an helpful assistant",
+                "user_prompt": "Write a poem based on the following parameters:  \n- Poetry Type: {{workflow.parameters.poetry_type}}\n- Theme: {{workflow.parameters.theme}}  \n- Length: {{workflow.parameters.length}} \n- Language: {{workflow.parameters.language_abbreviation}}\n\nThe poem should strictly align with the specified poetry type and theme, match the given length, and be written in the specified language. Output only the poem. Do not include any explanations or additional text."
+            }
+        },
+        {
+            "id": "step2",
+            "name": "Voice Cloning",
+            "type": "1019Model",
+            "model_slug": "xtts-v2",
+            "model_version": "0.0.1",
+            "params": {
+                "cleanup_voice": false,
+                "language": "{{workflow.parameters.language_abbreviation}}",
+                "speaker": "{{workflow.parameters.speaker_audio}}",
+                "text": "{{step1.output}}"
+            }
+        }
+    ]
+}
