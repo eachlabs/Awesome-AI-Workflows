@@ -3,7 +3,6 @@
 <img src="images/ps2-visual-style-ai-image-generation-workflow-full.jpeg" alt="PS2 Visual Style AI Image Generation Workflow"/>
 
 ## Overview
-
 Generate PS2 Visual Style AI Images using Eachlabs workflows—easily integrate retro gaming-inspired visuals into your web and mobile applications with Eachlabs API.
 
 
@@ -49,7 +48,6 @@ Generate PS2 Visual Style AI Images using Eachlabs workflows—easily integrate 
 <img src="https://storage.googleapis.com/magicpoint/github-outputs/ps2-visual-style-ai-image-generation-workflow.webp" alt="PS2 Output Image" width="250"/>  
 
 ---
-
 
 ## Conclusion
 

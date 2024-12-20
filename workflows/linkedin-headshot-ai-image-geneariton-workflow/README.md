@@ -3,7 +3,6 @@
 <img src="images/linkedin-headshot-image-generaiton-workflow-full.jpeg" alt="LinkedIn Headshot AI Image Generation Workflow"/>
 
 ## Overview
-
 Generate LinkedIn Headshot AI Images using Eachlabs workflows—seamlessly integrate professional headshot generation for LinkedIn profiles into your web and mobile applications with Eachlabs API.
 
 
@@ -27,7 +26,6 @@ Generate LinkedIn Headshot AI Images using Eachlabs workflows—seamlessly integ
 **Description:** Upload the image to transform it into a professional LinkedIn headshot.
 
 ---
-
 
 ## Example Input and Output
 

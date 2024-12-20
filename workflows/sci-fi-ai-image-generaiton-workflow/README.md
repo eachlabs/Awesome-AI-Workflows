@@ -3,7 +3,6 @@
 <img src="images/sci-fi-image-generaiton-workflow-full.jpeg" alt="Sci-Fi AI Image Generation Workflow"/>
 
 ## Overview
-
 Create Sci-Fi AI Images using Eachlabs workflows—easily integrate futuristic and sci-fi inspired visuals into your web and mobile applications with Eachlabs API.
 
 ---
@@ -26,7 +25,6 @@ Create Sci-Fi AI Images using Eachlabs workflows—easily integrate futuristic a
 **Description:** Upload the image of the individual for sci-fi AI transformation.
 
 ---
-
 
 ## Outputs
 

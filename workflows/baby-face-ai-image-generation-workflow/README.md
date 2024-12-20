@@ -48,4 +48,4 @@ Create AI Baby Face Images with Eachlabs workflows—seamlessly integrate baby f
 
 ## Conclusion
 
-If you encounter any errors, feel free to join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.
+If you encounter an error, you can join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server.
