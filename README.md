@@ -81,6 +81,18 @@ Combining AI models from different sources can lead to better results. You can a
 | **Story Animation AI Video Generation Workflow**                     | Brings stories to life with animated characters and scenes.                                        |
 | **Dance AI Video Generation with Hailuo AI**            | Creates dynamic dancing animations with customizable styles.                                       |
 | **Ideal Partner AI Image Generation with Flux**         | Generates a detailed profile of your ideal partner, tailored to your preferences.                 |
+| **20's Age Generation AI Workflow**              | Generates AI-based visuals representing individuals in their 20s.       |
+| **Baby Ultrasound AI Video Generation Workflow with Hailuo AI** | Creates realistic ultrasound videos using Hailuo AI.                   |
+| **AI Baby Face AI Image Generation Workflow**    | Generates lifelike baby face images based on user inputs.              |
+| **Realistic Image Generation with Flux**         | Produces hyper-realistic images with the Flux AI engine.               |
+| **Disney AI Image Generation Workflow**          | Creates Disney-style visuals using AI.                                 |
+| **Mood AI Headshot Generation Workflow**         | Generates headshots reflecting various moods and expressions.          |
+| **1960's AI Image Generation Workflow**          | Creates visuals inspired by the 1960s aesthetic.                       |
+| **Sci-Fi AI Image Generation Workflow**          | Produces futuristic, sci-fi themed images with AI.                     |
+| **LinkedIn Headshot AI Image Generation Workflow** | Generates professional headshots tailored for LinkedIn profiles.       |
+| **PS2 Visual Style AI Image Generation Workflow** | Creates images with a nostalgic PS2-era visual style.                  |
+| **Podcast AI Voice Generation Workflow**         | Generates podcast-quality AI voices for audio content.                 |
+
 
 ## Resources
 

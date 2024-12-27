@@ -1,0 +1,51 @@
+{
+    "name": "Realistic Image Generation with Flux",
+    "description": "Create Realistic Images with Flux using Eachlabs workflows—easily integrate lifelike image generation into your web and mobile applications with Eachlabs API.",
+    "nodes_json": "[{\"data\":{\"description\":\"Add Inputs\",\"inputs\":[{\"defaultValue\":\"https://storage.googleapis.com/magicpoint/models/women.png\",\"inputId\":\"0\",\"required\":false,\"type\":\"image\",\"variableName\":\"image_url\"}],\"selected\":true,\"step\":1,\"title\":\"Inputs\",\"type\":\"input\"},\"height\":40,\"id\":\"0\",\"position\":{\"x\":0,\"y\":50},\"positionAbsolute\":{\"x\":0,\"y\":50},\"type\":\"inputNode\",\"width\":150},{\"data\":{\"model\":{\"average_response_time\":0,\"category\":{\"id\":47,\"name\":\"Text\",\"slug\":\"text\"},\"charge\":0.003,\"charge_type\":\"fixed\",\"description\":\"Gender, Age, and Race prediction from a face from 1019!\",\"fixed_charge\":true,\"flow_output_type\":\"code\",\"gpu_device_id\":{\"full_name\":\"T4 16GB\",\"price\":0.000337},\"id\":30,\"inputs\":{\"image_url\":{\"component\":\"file\",\"default\":false,\"description\":\"Upload or enter your face image to get result\",\"flow_type\":\"image\",\"maximum\":0,\"minimum\":0,\"name\":\"image_url\",\"options\":false,\"order\":1,\"required\":false,\"title\":\"Face Image\",\"type\":\"string\",\"value\":\"{{workflow.parameters.image_url}}\"}},\"name\":\"1019-face-analyzer\",\"output_object_key\":false,\"output_type\":\"code\",\"slug\":\"1019-face-analyzer\",\"source\":{\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\",\"name\":\"1019Model\"},\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/models/1019-face-analyzer.webp\",\"title\":\"Face Analyzer by Each AI by Each AI by Each AI\",\"type\":\"inference\",\"version\":\"0.0.1\"},\"selected\":false,\"step\":2},\"height\":1,\"id\":\"1\",\"position\":{\"x\":0,\"y\":170},\"positionAbsolute\":{\"x\":0,\"y\":170},\"type\":\"modelNode\",\"width\":1},{\"data\":{\"model\":{\"average_response_time\":0,\"category\":{\"id\":46,\"name\":\"Image\",\"slug\":\"image\"},\"charge\":0.003,\"charge_type\":\"fixed\",\"description\":\"The fastest image generation model tailored for local development and personal use\",\"fixed_charge\":true,\"flow_output_type\":\"image\",\"gpu_device_id\":{\"full_name\":\"A40 48GB\",\"price\":0.001},\"id\":88,\"inputs\":{\"aspect_ratio\":{\"component\":\"select\",\"default\":\"1:1\",\"description\":\"An enumeration.\",\"flow_type\":\"string\",\"maximum\":0,\"minimum\":0,\"name\":\"aspect_ratio\",\"options\":\"1:1,16:9,21:9\",\"order\":1,\"required\":false,\"title\":\"aspect_ratio\",\"type\":\"string\",\"value\":\"1:1\"},\"disable_safety_checker\":{\"component\":\"checkbox\",\"default\":\"true\",\"description\":\"Disable safety checker for generated images\",\"flow_type\":\"boolean\",\"maximum\":0,\"minimum\":0,\"name\":\"disable_safety_checker\",\"options\":\"\",\"order\":12,\"required\":false,\"title\":\"Disable Safety Checker\",\"type\":\"boolean\",\"value\":\"true\"},\"guidance\":{\"component\":\"input\",\"default\":\"3.5\",\"description\":\"Guidance for generated image. Ignored for flux-schnell\",\"flow_type\":\"number\",\"maximum\":0,\"minimum\":0,\"name\":\"guidance\",\"options\":\"\",\"order\":2,\"required\":false,\"title\":\"Guidance\",\"type\":\"number\",\"value\":\"3.5\"},\"output_format\":{\"component\":\"select\",\"default\":\"webp\",\"description\":\"An enumeration.\",\"flow_type\":\"string\",\"maximum\":0,\"minimum\":0,\"name\":\"output_format\",\"options\":\"webp,jpg,png\",\"order\":4,\"required\":false,\"title\":\"output_format\",\"type\":\"string\",\"value\":\"webp\"},\"output_quality\":{\"component\":\"slider\",\"default\":\"80\",\"description\":\"Quality when saving the output images, from 0 to 100. 100 is best quality, 0 is lowest quality. Not relevant for .png outputs\",\"flow_type\":\"integer\",\"maximum\":0,\"minimum\":0,\"name\":\"output_quality\",\"options\":\"\",\"order\":5,\"required\":false,\"title\":\"Output Quality\",\"type\":\"integer\",\"value\":\"80\"},\"prompt\":{\"component\":\"input\",\"default\":\"\",\"description\":\"Prompt for generated image\",\"flow_type\":\"string\",\"maximum\":0,\"minimum\":0,\"name\":\"prompt\",\"options\":\"\",\"order\":0,\"required\":false,\"title\":\"Prompt\",\"type\":\"string\",\"value\":\"Stylish {{step1.output.age}}-year-old {{step1.output.race}} \\n {{step1.output.gender}}, fair skin, modern sleek outfit, shiny futuristic material, sophisticated urban environment, soft lighting, elegant posture, confident expression, fashionable style, ambiance of allure and sophistication.\"},\"seed\":{\"component\":\"input\",\"default\":\"\",\"description\":\"Random seed. Set for reproducible generation\",\"flow_type\":\"integer\",\"maximum\":0,\"minimum\":0,\"name\":\"seed\",\"options\":\"\",\"order\":3,\"required\":false,\"title\":\"Seed\",\"type\":\"integer\",\"value\":\"\"}},\"name\":\"flux-schnell\",\"output_object_key\":false,\"output_type\":\"image\",\"slug\":\"flux-schnell\",\"source\":{\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\",\"name\":\"1019Model\"},\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/models/flux-out.webp\",\"title\":\"Flux Schnell\",\"type\":\"inference\",\"version\":\"0.0.1\"},\"selected\":false,\"step\":3},\"height\":1,\"id\":\"2\",\"position\":{\"x\":0,\"y\":290},\"positionAbsolute\":{\"x\":0,\"y\":290},\"type\":\"modelNode\",\"width\":1},{\"data\":{\"model\":{\"average_response_time\":0,\"category\":{\"id\":46,\"name\":\"Image\",\"slug\":\"image\"},\"charge\":0.003,\"charge_type\":\"fixed\",\"description\":false,\"fixed_charge\":true,\"flow_output_type\":\"image\",\"gpu_device_id\":{\"full_name\":\"T4 16GB\",\"price\":0.000337},\"id\":72,\"inputs\":{\"input_image\":{\"component\":\"file\",\"default\":\"\",\"description\":\"Target image\",\"flow_type\":\"string\",\"maximum\":0,\"minimum\":0,\"name\":\"input_image\",\"options\":\"\",\"order\":0,\"required\":true,\"title\":\"Input Image\",\"type\":\"string\",\"value\":\"{{step2.output}}\"},\"swap_image\":{\"component\":\"file\",\"default\":\"\",\"description\":\"Swap image\",\"flow_type\":\"string\",\"maximum\":0,\"minimum\":0,\"name\":\"swap_image\",\"options\":\"\",\"order\":1,\"required\":true,\"title\":\"Swap Image\",\"type\":\"string\",\"value\":\"{{workflow.parameters.image_url}}\"}},\"name\":\"face-swap-new\",\"output_object_key\":false,\"output_type\":\"image\",\"slug\":\"face-swap-new\",\"source\":{\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\",\"name\":\"1019Model\"},\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/thumbs/face-swap-thumb.webp\",\"title\":\"Face Swap\",\"type\":\"inference\",\"version\":\"0.0.1\"},\"selected\":false,\"step\":4},\"height\":1,\"id\":\"3\",\"position\":{\"x\":0,\"y\":410},\"positionAbsolute\":{\"x\":0,\"y\":410},\"type\":\"modelNode\",\"width\":1},{\"data\":{\"description\":\"Add Outputs\",\"selected\":false,\"step\":5,\"title\":\"Outputs\",\"type\":\"output\"},\"height\":40,\"id\":\"4\",\"position\":{\"x\":0,\"y\":530},\"positionAbsolute\":{\"x\":0,\"y\":530},\"type\":\"outputNode\",\"width\":150}]",
+    "edges_json": "[{\"id\":\"e_0_1\",\"source\":\"0\",\"target\":\"1\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_1_2\",\"source\":\"1\",\"target\":\"2\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_2_3\",\"source\":\"2\",\"target\":\"3\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_3_4\",\"source\":\"3\",\"target\":\"4\",\"type\":\"addableEdge\",\"animated\":true}]",
+    "inputs": [
+        {
+            "name": "image_url",
+            "type": "image",
+            "default_value": "https://storage.googleapis.com/magicpoint/models/women.png"
+        }
+    ],
+    "steps": [
+        {
+            "id": "step1",
+            "name": "Face Analyzer by Each AI by Each AI by Each AI",
+            "type": "1019Model",
+            "model_slug": "1019-face-analyzer",
+            "model_version": "0.0.1",
+            "params": {
+                "image_url": "{{workflow.parameters.image_url}}"
+            }
+        },
+        {
+            "id": "step2",
+            "name": "Flux Schnell",
+            "type": "1019Model",
+            "model_slug": "flux-schnell",
+            "model_version": "0.0.1",
+            "params": {
+                "aspect_ratio": "1:1",
+                "disable_safety_checker": true,
+                "guidance": 3.5,
+                "output_format": "webp",
+                "output_quality": 80,
+                "prompt": "Stylish {{step1.output.age}}-year-old {{step1.output.race}} \n {{step1.output.gender}}, fair skin, modern sleek outfit, shiny futuristic material, sophisticated urban environment, soft lighting, elegant posture, confident expression, fashionable style, ambiance of allure and sophistication."
+            }
+        },
+        {
+            "id": "step3",
+            "name": "Face Swap",
+            "type": "1019Model",
+            "model_slug": "face-swap-new",
+            "model_version": "0.0.1",
+            "params": {
+                "input_image": "{{step2.output}}",
+                "swap_image": "{{workflow.parameters.image_url}}"
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Podcast AI Voice Generation Workflow",
+    "description": "Generate Podcast AI Voices using Eachlabs workflows—easily integrate custom AI-generated voices for podcasts into your web and mobile applications with Eachlabs API.\n",
+    "nodes_json": "[{\"data\":{\"description\":\"Add Inputs\",\"inputs\":[{\"defaultValue\":\"Business Daily\",\"inputId\":\"0\",\"required\":false,\"type\":\"string\",\"variableName\":\"podcast_name\"},{\"defaultValue\":\"Emily\",\"inputId\":\"1\",\"required\":false,\"type\":\"string\",\"variableName\":\"speaker_name\"},{\"defaultValue\":\"How recycling can be profitable?\",\"inputId\":\"2\",\"required\":false,\"type\":\"string\",\"variableName\":\"topic\"},{\"defaultValue\":\"https://cdn.eachlabs.ai/ipfs/3FA9ck5a0woAEJulGzeg3CJkcPVBcLCfdixBNrAxA8ediDrlA/out.wav\",\"inputId\":\"3\",\"originalValue\":\"\",\"required\":false,\"type\":\"voice\",\"variableName\":\"audio\"}],\"selected\":true,\"step\":1,\"title\":\"Inputs\",\"type\":\"input\"},\"height\":40,\"id\":\"0\",\"position\":{\"x\":0,\"y\":50},\"positionAbsolute\":{\"x\":0,\"y\":50},\"type\":\"inputNode\",\"width\":150},{\"data\":{\"model\":{\"category\":{\"id\":36,\"name\":\"Text1\",\"slug\":\"text-generation\"},\"charge\":0.014,\"charge_type\":\"execution_time\",\"description\":\"Run OpenAI ChatGPT in your flows!\",\"fixed_charge\":false,\"flow_output_type\":\"string\",\"gpu_device_id\":{\"full_name\":\"A100 40GB\",\"price\":0.0015},\"id\":42,\"inputs\":{\"max_tokens\":{\"component\":\"input\",\"default\":\"512\",\"description\":\"You can limit your output tokens. \",\"flow_type\":\"integer\",\"maximum\":0,\"minimum\":0,\"name\":\"max_tokens\",\"options\":false,\"order\":4,\"required\":false,\"title\":\"Max Tokens\",\"type\":\"integer\",\"value\":\"512\"},\"model\":{\"component\":\"select\",\"default\":\"gpt-4o\",\"description\":\"Please select your model name.\",\"flow_type\":\"string\",\"maximum\":0,\"minimum\":0,\"name\":\"model\",\"options\":\"gpt-3.5-turbo,gpt-4o,gpt-3.5-turbo-16k\",\"order\":1,\"required\":true,\"title\":\"Model Name\",\"type\":\"string\",\"value\":\"gpt-4o\"},\"system_prompt\":{\"component\":\"input\",\"default\":\"You are a helpful assistant\",\"description\":\"You can define a role to your GPT.\",\"flow_type\":\"string\",\"maximum\":0,\"minimum\":0,\"name\":\"system_prompt\",\"options\":false,\"order\":3,\"required\":true,\"title\":\"System Prompt\",\"type\":\"string\",\"value\":\"You are a helpful assistant\"},\"user_prompt\":{\"component\":\"input\",\"default\":false,\"description\":\"User Prompt\",\"flow_type\":\"string\",\"maximum\":0,\"minimum\":0,\"name\":\"user_prompt\",\"options\":false,\"order\":4,\"required\":true,\"title\":\"User Prompt\",\"type\":\"string\",\"value\":\"Please Write a monologue script that can be read as a products by a single host. Write the script in every day language. \\n\\nThe Name of this podcast should be : {{workflow.parameters.podcast_name}}\\n\\nSpeaker name : {{workflow.parameters.speaker_name}}\\n\\nHere's the podcast topic : \\n{{workflow.parameters.topic}}\\n\\nOnly give me the script do not add any captions (e.g. text in []). \\n\\nWrite maximum 1 paragraph!\"}},\"name\":\"openai-chatgpt\",\"output_object_key\":false,\"output_type\":false,\"slug\":\"openai-chatgpt\",\"source\":{\"icon_url\":\"https://storage.cloud.google.com/magicpoint/thumbs/openai-logo.jpg\",\"name\":\"OpenAI\"},\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/models/openai-chatgpt.webp\",\"title\":\"ChatGPT\",\"type\":\"inference\",\"version\":\"0.0.1\"},\"selected\":false,\"step\":2},\"height\":1,\"id\":\"1\",\"position\":{\"x\":0,\"y\":170},\"positionAbsolute\":{\"x\":0,\"y\":170},\"type\":\"modelNode\",\"width\":1},{\"data\":{\"model\":{\"average_response_time\":120,\"category\":{\"id\":48,\"name\":\"Audio\",\"slug\":\"audio\"},\"charge\":0.014,\"charge_type\":\"execution_time\",\"description\":\"Updated to OpenVoice v2: Versatile Open Voice\",\"fixed_charge\":false,\"flow_output_type\":\"audio\",\"gpu_device_id\":{\"full_name\":\"A40 48GB\",\"price\":0.001},\"id\":60,\"inputs\":{\"audio\":{\"component\":\"file\",\"default\":\"https://cdn.eachlabs.ai/ipfs/3FA9ck5a0woAEJulGzeg3CJkcPVBcLCfdixBNrAxA8ediDrlA/out.wav\",\"description\":\"Input reference audio\",\"flow_type\":\"string\",\"maximum\":0,\"minimum\":0,\"name\":\"audio\",\"options\":\"\",\"order\":0,\"required\":false,\"title\":\"Audio\",\"type\":\"string\",\"value\":\"{{workflow.parameters.audio}}\"},\"language\":{\"component\":\"select\",\"default\":\"EN_NEWEST\",\"description\":\"An enumeration.\",\"flow_type\":\"string\",\"maximum\":0,\"minimum\":0,\"name\":\"language\",\"options\":\"EN_NEWEST,EN,ES,FR,ZH,JP,KR\",\"order\":2,\"required\":false,\"title\":\"language\",\"type\":\"string\",\"value\":\"EN_NEWEST\"},\"speed\":{\"component\":\"input\",\"default\":\"1\",\"description\":\"Set speed scale of the output audio\",\"flow_type\":\"number\",\"maximum\":0,\"minimum\":0,\"name\":\"speed\",\"options\":\"\",\"order\":3,\"required\":false,\"title\":\"Speed\",\"type\":\"number\",\"value\":\"1\"},\"text\":{\"component\":\"input\",\"default\":\"Did you ever hear a folk tale about a giant turtle?\",\"description\":\"Input text\",\"flow_type\":\"string\",\"maximum\":0,\"minimum\":0,\"name\":\"text\",\"options\":\"\",\"order\":1,\"required\":false,\"title\":\"Text\",\"type\":\"string\",\"value\":\"{{step1.output}}S\"}},\"name\":\"openvoice\",\"output_object_key\":false,\"output_type\":\"audio\",\"slug\":\"openvoice\",\"source\":{\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\",\"name\":\"1019Model\"},\"thumbnail_url\":\"https://storage.googleapis.com/magicpoint/models/thumbs_openvoice-min.webp\",\"title\":\"Open Voice\",\"type\":\"inference\",\"version\":\"0.0.1\"},\"selected\":false,\"step\":3},\"height\":1,\"id\":\"2\",\"position\":{\"x\":0,\"y\":290},\"positionAbsolute\":{\"x\":0,\"y\":290},\"type\":\"modelNode\",\"width\":1},{\"data\":{\"description\":\"Add Outputs\",\"selected\":false,\"step\":4,\"title\":\"Outputs\",\"type\":\"output\"},\"height\":40,\"id\":\"3\",\"position\":{\"x\":0,\"y\":410},\"positionAbsolute\":{\"x\":0,\"y\":410},\"type\":\"outputNode\",\"width\":150}]",
+    "edges_json": "[{\"id\":\"e_0_1\",\"source\":\"0\",\"target\":\"1\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_1_2\",\"source\":\"1\",\"target\":\"2\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_2_3\",\"source\":\"2\",\"target\":\"3\",\"type\":\"addableEdge\",\"animated\":true}]",
+    "inputs": [
+        {
+            "name": "podcast_name",
+            "type": "string",
+            "default_value": "Business Daily"
+        },
+        {
+            "name": "speaker_name",
+            "type": "string",
+            "default_value": "Emily"
+        },
+        {
+            "name": "topic",
+            "type": "string",
+            "default_value": "How recycling can be profitable?"
+        },
+        {
+            "name": "audio",
+            "type": "voice",
+            "default_value": "https://cdn.eachlabs.ai/ipfs/3FA9ck5a0woAEJulGzeg3CJkcPVBcLCfdixBNrAxA8ediDrlA/out.wav"
+        }
+    ],
+    "steps": [
+        {
+            "id": "step1",
+            "name": "ChatGPT",
+            "type": "OpenAI",
+            "model_slug": "openai-chatgpt",
+            "model_version": "0.0.1",
+            "params": {
+                "max_tokens": 512,
+                "model": "gpt-4o",
+                "system_prompt": "You are a helpful assistant",
+                "user_prompt": "Please Write a monologue script that can be read as a products by a single host. Write the script in every day language. \n\nThe Name of this podcast should be : {{workflow.parameters.podcast_name}}\n\nSpeaker name : {{workflow.parameters.speaker_name}}\n\nHere's the podcast topic : \n{{workflow.parameters.topic}}\n\nOnly give me the script do not add any captions (e.g. text in []). \n\nWrite maximum 1 paragraph!"
+            }
+        },
+        {
+            "id": "step2",
+            "name": "Open Voice",
+            "type": "1019Model",
+            "model_slug": "openvoice",
+            "model_version": "0.0.1",
+            "params": {
+                "audio": "{{workflow.parameters.audio}}",
+                "language": "EN_NEWEST",
+                "speed": 1,
+                "text": "{{step1.output}}S"
+            }
+        }
+    ]
+}
