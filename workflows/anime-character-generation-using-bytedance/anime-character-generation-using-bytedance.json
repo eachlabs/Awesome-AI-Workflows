@@ -1,0 +1,26 @@
+{
+    "name": "Anime Character Generation Using ByteDance",
+    "description": "Customize and generate anime-style images with ByteDance’s AI and also you can explore featuring 19 different artistic styles.",
+    "nodes_json": "[{\"id\":\"0\",\"type\":\"inputNode\",\"data\":{\"title\":\"Inputs\",\"description\":\"Add Inputs\",\"type\":\"input\",\"step\":1,\"inputs\":[{\"inputId\":\"0\",\"type\":\"image\",\"variableName\":\"image\",\"defaultValue\":\"https://storage.googleapis.com/magicpoint/models/man.png\",\"required\":false,\"originalValue\":\"\"}],\"selected\":false},\"position\":{\"x\":0,\"y\":50},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":50}},{\"id\":\"1\",\"data\":{\"model\":{\"id\":245,\"title\":\"ByteDance\",\"type\":\"inference\",\"source\":{\"name\":\"1019Model\",\"icon_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\"},\"name\":\"bytedance\",\"slug\":\"bytedance\",\"thumbnail_url\":\"https://console.eachlabs.ai/img/logo/logo-dark-full.png\",\"description\":\"ByteDance Image Stylization transforms images into stunning artworks with various artistic styles.\",\"version\":\"0.0.1\",\"category\":{\"id\":56,\"name\":\"Image to Image\",\"slug\":\"image-to-image\"},\"categories\":[{\"id\":56,\"name\":\"Image to Image\",\"slug\":\"image-to-image\"}],\"gpu_device_id\":{\"full_name\":\"T4 16GB\",\"price\":0.000337},\"inputs\":{\"style\":{\"name\":\"style\",\"type\":\"string\",\"title\":\"Style\",\"component\":\"select\",\"order\":0,\"description\":false,\"default\":\"anime_style\",\"minimum\":0,\"maximum\":0,\"required\":true,\"flow_type\":\"string\",\"options\":\"3d,realistic_style,angel,anime_style,japanese_comics,princess_style,dreamy,ink_style,new_monet_garden,monets_garden,exquisite_comic,cyber_machinery,chinese_style,romantic,ugly_clay,cute_doll,3d_gaming,animated_movie,doll\",\"value\":\"anime_style\"},\"image_url\":{\"name\":\"image_url\",\"type\":\"string\",\"title\":\"Image Url\",\"component\":\"input\",\"order\":0,\"description\":false,\"default\":false,\"minimum\":0,\"maximum\":0,\"required\":true,\"flow_type\":\"string\",\"options\":false,\"value\":\"{{workflow.parameters.image}}\"}},\"output_type\":false,\"flow_output_type\":false,\"output_object_key\":false,\"average_response_time\":0,\"charge_type\":\"fixed\",\"fixed_charge\":true,\"step_by_step_price\":0,\"default_example\":{},\"charge\":0.001},\"step\":2,\"selected\":true},\"type\":\"modelNode\",\"width\":1,\"height\":1,\"position\":{\"x\":0,\"y\":170},\"positionAbsolute\":{\"x\":0,\"y\":170}},{\"id\":\"2\",\"type\":\"outputNode\",\"data\":{\"title\":\"Outputs\",\"description\":\"Add Outputs\",\"type\":\"output\",\"step\":3,\"selected\":false},\"position\":{\"x\":0,\"y\":290},\"width\":150,\"height\":40,\"positionAbsolute\":{\"x\":0,\"y\":290}}]",
+    "edges_json": "[{\"id\":\"e_0_1\",\"source\":\"0\",\"target\":\"1\",\"type\":\"addableEdge\",\"animated\":true},{\"id\":\"e_1_2\",\"source\":\"1\",\"target\":\"2\",\"type\":\"addableEdge\",\"animated\":true}]",
+    "inputs": [
+        {
+            "name": "image",
+            "type": "image",
+            "default_value": "https://storage.googleapis.com/magicpoint/models/man.png"
+        }
+    ],
+    "steps": [
+        {
+            "id": "step1",
+            "name": "ByteDance",
+            "type": "1019Model",
+            "model_slug": "bytedance",
+            "model_version": "0.0.1",
+            "params": {
+                "image_url": "{{workflow.parameters.image}}",
+                "style": "anime_style"
+            }
+        }
+    ]
+}
