@@ -92,6 +92,11 @@ Combining AI models from different sources can lead to better results. You can a
 | **LinkedIn Headshot AI Image Generation Workflow** | Generates professional headshots tailored for LinkedIn profiles.       |
 | **PS2 Visual Style AI Image Generation Workflow** | Creates images with a nostalgic PS2-era visual style.                  |
 | **Podcast AI Voice Generation Workflow**         | Generates podcast-quality AI voices for audio content.                 |
+| **Character Video Generation Using ByteDance** | Creates videos featuring characters using ByteDance.                             |
+| **Animation Video Generation Using ByteDance** | Creates animated videos using ByteDance.                                         |
+| **Kissing Video Generation Using ByteDance** | Generates kissing scenes, made more realistic with ByteDance.                     |
+| **Hug Video Generation Using ByteDance**    | Generates hug scenes, creating an emotional atmosphere with ByteDance.           |
+| **Anime Character Generation Using ByteDance** | Creates anime-style characters using ByteDance.                                  |
 
 
 ## Resources
