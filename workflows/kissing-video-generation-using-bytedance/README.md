@@ -46,6 +46,5 @@ Create emotional and realistic kissing videos using the **Kissing Video Generati
 ### Output
 - **Generated Video:** [Click here to view the output video](https://storage.googleapis.com/magicpoint/outputs/kissing-video-generation-using-bytedance-readme-output.mp4)
 
-
 ## Conclusion
 If you encounter any issues or need assistance, join our <b><a href="https://discord.com/invite/yzZD4ZxBPt" target="_blank">Discord</a></b> server for support.
