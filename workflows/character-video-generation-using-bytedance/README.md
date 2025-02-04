@@ -25,16 +25,12 @@ Create realistic character-driven videos using ByteDance-powered workflows—eff
 **Description:** This input represents the image of the character to be used in the video. The system will analyze and process this image for video generation.
 
 ## Usage
-
 These inputs are required parameters for running the model. Providing a clear, high-quality image ensures optimal results.
-
-
 
 ## Examples
 
 ### Input
 - **Image**: [Click here to image](https://storage.googleapis.com/magicpoint/models/women.png)
-
 
 ### Output
 **Generated Video:** [Click here to watch the video](https://storage.googleapis.com/magicpoint/outputs/character-video-generation-using-bytedance-readme-output.mp4)

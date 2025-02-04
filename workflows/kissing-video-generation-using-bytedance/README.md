@@ -37,7 +37,6 @@ Create emotional and realistic kissing videos using the **Kissing Video Generati
 2. Run the workflow to process the images and generate the video.
 3. Download the output video to view and share.
 
-
 ## Examples
 
 ### Input
