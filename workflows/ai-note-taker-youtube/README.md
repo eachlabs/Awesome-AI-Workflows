@@ -1,9 +1,9 @@
-# Youtube Video Summarizer Workflow
+# Ai Note Taker - Youtube
 
-<img src="images/youtube-video-summarizer-full.jpeg" alt="Youtube Video Summarizer Workflow"/>
+<img src="images/ai-note-taker-youtube-full.jpeg" alt="Ai Note Taker - Youtube"/>
 
 ## Overview
-Create YouTube Video Summaries using Eachlabs workflows—easily integrate automatic video summarization into your web and mobile applications with Eachlabs API.
+Create Ai Note Taker - Youtube using Eachlabs workflows—easily integrate automatic video summarization into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Accurate Transcriptions**

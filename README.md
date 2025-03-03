@@ -45,7 +45,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **Talking Faces Video Generation Workflow**               | Animates still images into talking faces for interactive use.                 |
 | **Text Logo Photo Maker**             | Creates text-based logos using customizable fonts and styles.                 |
 | **Yearbook Style Generation AI Workflow**    | Generates yearbook-style images with a nostalgic touch.                       |
-| **Youtube Video Summarizer Workflow**    | Summarizes YouTube videos by extracting key points and highlights.            |
+| **Ai Note Taker - Youtube**    | Summarizes YouTube videos by extracting key points and highlights.            |
 | **3D-Cartoon Image Generation Worfklow**    | Creates 3D cartoon characters based on user-provided images or specifications. |
 | **Animate Face with Video Generator** | Animates facial expressions in videos for more dynamic storytelling.           |
 | **Anime AI Image Generation Workflow**       | Transforms images into anime-style visuals through AI processing.                   |
@@ -55,7 +55,7 @@ Combining AI models from different sources can lead to better results. You can a
 | **RVC Runner Workflow**                  | Converts any voice into another using Real-time Voice Cloning (RVC) technology.|
 | **Wedding AI Image Generation**     | Creates beautiful and natural wedding photos with realistic poses and emotions. |
 | **AI Song Cover Workflow**               | Generates AI-based song covers by mimicking any artist's voice or style.      |
-| **Voice Summarizer Workflow**            | Summarizes spoken content from audio or video files with AI for quick insights. |
+| **Ai Note Taker - Voice**            | Summarizes spoken content from audio or video files with AI for quick insights. |
 | **AI Short Film Generation Workflow with Hailou AI**            | Generates short films using AI with realistic characters, scenes, and cinematic effects.         |
 | **Character Video Generation Workflow with Hailuo AI**       | Creates character-driven video content with customizable attributes and dynamic animations.       |
 | **Headshot AI Image Generation Workflow with Lipsync**         | Produces professional headshots and adds synchronized lip movements for various speaking roles.   |
