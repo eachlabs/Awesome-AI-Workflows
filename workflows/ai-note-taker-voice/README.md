@@ -1,10 +1,10 @@
-# Ai Note Taker - Voice
+# AI Note Taker - Voice
 
-<img src="images/ai-note-taker-voice-full.jpeg" alt="Ai Note Taker - Voice"/>
+<img src="images/ai-note-taker-voice-full.jpeg" alt="AI Note Taker - Voice"/>
 
 ## Overview
 
-Generate Ai Note Taker - Voice using Eachlabs workflows—seamlessly integrate voice summarization into your web and mobile applications with Eachlabs API.
+Generate AI Note Taker - Voice using Eachlabs workflows—seamlessly integrate voice summarization into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Speech-to-Text Conversion**: Uses a fast and accurate voice-to-text model to transcribe speech.

@@ -1,9 +1,9 @@
-# Ai Note Taker - Youtube
+# AI Note Taker - Youtube
 
-<img src="images/ai-note-taker-youtube-full.jpeg" alt="Ai Note Taker - Youtube"/>
+<img src="images/ai-note-taker-youtube-full.jpeg" alt="AI Note Taker - Youtube"/>
 
 ## Overview
-Create Ai Note Taker - Youtube using Eachlabs workflows—easily integrate automatic video summarization into your web and mobile applications with Eachlabs API.
+Create AI Note Taker - Youtube using Eachlabs workflows—easily integrate automatic video summarization into your web and mobile applications with Eachlabs API.
 
 ## Features
 - **Accurate Transcriptions**
